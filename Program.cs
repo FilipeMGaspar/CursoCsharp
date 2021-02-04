@@ -8,7 +8,7 @@ namespace CursoCsharp
         {
             Console.WriteLine("Olá Mundo!");
             Console.WriteLine("Seja Bem Bindo!");
-            Console.WriteLine("Ao Curso de C# da CodeBr!");
+            Console.WriteLine("Ao Curso de C# da CodeBr!!");
         }
     }
 }
