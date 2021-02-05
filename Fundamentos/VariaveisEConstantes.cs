@@ -23,6 +23,9 @@ namespace CursoCsharp.Fundamentos
 
             sbyte saldoDeGols = sbyte.MinValue;
             Console.WriteLine("Saldo de golos " + saldoDeGols);
+
+            short salario = short.MaxValue;
+            Console.WriteLine("O valor do salário máximo é " + salario);
         }
     }
 }
