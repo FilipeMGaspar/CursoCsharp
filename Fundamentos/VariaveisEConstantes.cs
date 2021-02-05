@@ -26,6 +26,11 @@ namespace CursoCsharp.Fundamentos
 
             short salario = short.MaxValue;
             Console.WriteLine("O valor do salário máximo é " + salario);
+
+            int menorValorInt = int.MaxValue;
+            Console.WriteLine("O menor valor inteiro é " + menorValorInt);
+
+
         }
     }
 }
