@@ -30,6 +30,9 @@ namespace CursoCsharp.Fundamentos
             int menorValorInt = int.MaxValue;
             Console.WriteLine("O menor valor inteiro é " + menorValorInt);
 
+            uint populacaoBrasileira = uint.MaxValue;
+            Console.WriteLine("População brasileira " + populacaoBrasileira);
+
 
         }
     }
