@@ -47,6 +47,9 @@ namespace CursoCsharp.Fundamentos
 
             decimal distanciaEntreEstrelas = decimal.MaxValue;
             Console.WriteLine("Distancia entre estrelas " + distanciaEntreEstrelas);
+
+            char letra = 'b';
+            Console.WriteLine("Letra Selecionada " + letra);
         }
     }
 }
