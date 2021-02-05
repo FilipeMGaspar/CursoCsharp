@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using CursoCSharp.Fundamentos;
+using CursoCsharp.Fundamentos;
 
-namespace CursoCSharp {
+namespace CursoCsharp
+{
     class Program {
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
             });
