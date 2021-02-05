@@ -8,7 +8,9 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-
+            //Calculo da área da circunferencia
+            double raio = 4.5;
+            const double PI = 3.14;
         }
     }
 }
