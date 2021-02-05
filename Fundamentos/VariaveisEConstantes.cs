@@ -42,7 +42,11 @@ namespace CursoCsharp.Fundamentos
             float precoComputador = 1299.99f;
             Console.WriteLine("Preço do computador " + precoComputador);
 
+            double valorDeMercadoApple = 1000000000000000.00;
+            Console.WriteLine("Valor de Mercado da Apple " + valorDeMercadoApple);
 
+            decimal distanciaEntreEstrelas = decimal.MaxValue;
+            Console.WriteLine("Distancia entre estrelas " + distanciaEntreEstrelas);
         }
     }
 }
