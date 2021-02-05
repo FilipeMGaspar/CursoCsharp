@@ -33,7 +33,8 @@ namespace CursoCsharp.Fundamentos
             uint populacaoBrasileira = uint.MaxValue;
             Console.WriteLine("População brasileira " + populacaoBrasileira);
 
-
+            long menorValorLong = long.MinValue;
+            Console.WriteLine("Menor Valor long " + menorValorLong);
         }
     }
 }
