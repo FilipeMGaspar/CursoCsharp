@@ -19,7 +19,7 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine("Está a chover " + chove);
 
             byte idade = 36;
-            Console.WriteLine("A sua idade é " + idade +" anos!");
+            Console.WriteLine("A sua idade é de" + idade +" anos!");
         }
     }
 }
