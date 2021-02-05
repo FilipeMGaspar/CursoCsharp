@@ -8,6 +8,8 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            //Cuidado dom os comentários desnecessários
+            Console.WriteLine("Código claro é sempre melhor!");
 
         }
     }
