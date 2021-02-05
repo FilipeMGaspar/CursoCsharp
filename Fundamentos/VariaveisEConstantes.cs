@@ -17,6 +17,9 @@ namespace CursoCsharp.Fundamentos
             //Tipos internos
             bool chove = true;
             Console.WriteLine("Está a chover " + chove);
+
+            byte idade = 36;
+            Console.WriteLine("A sua idade é " + idade +" anos!");
         }
     }
 }
