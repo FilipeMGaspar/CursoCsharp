@@ -50,6 +50,9 @@ namespace CursoCsharp.Fundamentos
 
             char letra = 'b';
             Console.WriteLine("Letra Selecionada " + letra);
+
+            string texto = "Seja Bem Vindo ao curso de C#!";
+            Console.WriteLine(texto);
         }
     }
 }
