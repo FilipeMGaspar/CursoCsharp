@@ -20,6 +20,9 @@ namespace CursoCsharp.Fundamentos
 
             byte idade = 36;
             Console.WriteLine("A sua idade é de" + idade +" anos!");
+
+            sbyte saldoDeGols = sbyte.MinValue;
+            Console.WriteLine("Saldo de golos " + saldoDeGols);
         }
     }
 }
