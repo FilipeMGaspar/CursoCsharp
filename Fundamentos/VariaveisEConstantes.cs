@@ -38,6 +38,11 @@ namespace CursoCsharp.Fundamentos
 
             ulong populacaoMundial = 7_600_000_000;
             Console.WriteLine("População Mundial " + populacaoMundial);
+
+            float precoComputador = 1299.99f;
+            Console.WriteLine("Preço do computador " + precoComputador);
+
+
         }
     }
 }
