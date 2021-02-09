@@ -8,7 +8,9 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-
+            string nome = "Portatil Gamer";
+            string marca = "Asus";
+            double preco = 999;
         }
     }
 }
