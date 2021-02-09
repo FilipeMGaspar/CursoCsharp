@@ -17,9 +17,10 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine("E tenho "+idade+" anos");
 
             int a;
-            int b -7;
+            a = 2;
+            int b =3;
 
-
+            Console.WriteLine(a+b);
         }
     }
 }
