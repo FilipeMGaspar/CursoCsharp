@@ -20,7 +20,7 @@ namespace CursoCsharp.Fundamentos
             a = 2;
             int b =3;
 
-            Console.WriteLine(a+b);
+            Console.WriteLine("A soma de "+ a +" com " + " b" + " tem o valor de "+ (a+b));
         }
     }
 }
