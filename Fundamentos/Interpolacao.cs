@@ -6,5 +6,9 @@ namespace CursoCsharp.Fundamentos
 {
     class Interpolacao
     {
+        public static void Executar()
+        {
+
+        }
     }
 }
