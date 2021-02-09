@@ -15,6 +15,11 @@ namespace CursoCsharp.Fundamentos
             var idade = 36;
             //idade = 36;
             Console.WriteLine("E tenho "+idade+" anos");
+
+            int a;
+            int b -7;
+
+
         }
     }
 }
