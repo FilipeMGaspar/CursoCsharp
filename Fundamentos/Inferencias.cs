@@ -10,11 +10,11 @@ namespace CursoCsharp.Fundamentos
         {
             var nome = "Filipe";
             //nome = 123;
-            Console.WriteLine("Olá "+nome);
+            Console.WriteLine("O meu nome é "+nome);
 
-            var idade;
-            idade = 36;
-            Console.WriteLine(idade);
+            var idade = 36;
+            //idade = 36;
+            Console.WriteLine("E tenho "+idade+" anos");
         }
     }
 }
