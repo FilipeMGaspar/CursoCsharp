@@ -8,7 +8,8 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-
+            var nome = "Filipe";
+            Console.WriteLine("Olá "+nome);
         }
     }
 }
