@@ -20,8 +20,8 @@ namespace CursoCsharp.Fundamentos
             //Calculo do IMC
             double peso = 95.6;
             double altura = 1.82;
-            double imc = peso / (altura * altura);
-            
+            double imc = peso / Math.Pow(altura,2);
+            Console.WriteLine($"IMC é {imc}");
         }
     }
 }
