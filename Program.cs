@@ -18,7 +18,7 @@ namespace CursoCsharp
                 {"Ler Dados do Console - Fundamentos", LerDados.Executar},
                 {"Formatando Números - Fundamentos", FormatandoNumero.Executar},
                 {"Conversões de Tipos de Dados - Fundamentos", ConverteTipos.Executar},
-                {"Operadores Aritméticos  - Fundamentos", ConverteTipos.Executar},
+                {"Operadores Aritméticos  - Fundamentos", OperadoresAritmeticos.Executar},
             });
 
             central.SelecionarEExecutar();
