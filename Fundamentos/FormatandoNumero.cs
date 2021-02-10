@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Globalization;
 
 namespace CursoCsharp.Fundamentos
 {
@@ -13,6 +12,8 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(valor.ToString("C"));
             Console.WriteLine(valor.ToString("p"));
             Console.WriteLine(valor.ToString("#.##"));
+
+            CultureInfo cultura = new CultureInfo("pt-PT");
         }
     }
 }
