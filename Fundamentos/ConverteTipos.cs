@@ -8,7 +8,8 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-
+            int inteiro = 10;
+            double quebrado = inteiro;
         }
     }
 }
