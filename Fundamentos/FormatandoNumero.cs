@@ -8,6 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            double valor = 15.175;
 
         }
     }
