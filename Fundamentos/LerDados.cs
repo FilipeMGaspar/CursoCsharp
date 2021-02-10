@@ -8,7 +8,11 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            Console.Write("Qual é o seu nome? ");
+            string nome = Console.ReadLine();
 
+            Console.Write("Qual é a sua idade? ");
+            int idade = Console.ReadLine();
         }
     }
 }
