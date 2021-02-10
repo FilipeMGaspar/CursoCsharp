@@ -12,6 +12,7 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(valor.ToString("F1"));
             Console.WriteLine(valor.ToString("C"));
             Console.WriteLine(valor.ToString("p"));
+            Console.WriteLine(valor.ToString("#.##"));
         }
     }
 }
