@@ -8,7 +8,8 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-            double nota = 6.0;
+            //double nota = 6.0;
+            double.TryParse(Console.ReadLine(), out double nota);
             double notaDeCorte = 7.0;
 
             Console.WriteLine("Nota Invélida: {0} ", nota > 10.0);
