@@ -16,6 +16,11 @@ namespace CursoCsharp.Fundamentos
             int notaTruncada = (int)nota;
             Console.WriteLine("Nota truncada: {0}", notaTruncada);
 
+            Console.Write("Digite a sua idade: ");
+            string idadeString = Console.ReadLine();
+            int idadeInteiro = int.Parse(idadeString);
+            Console.WriteLine("Idade inserida: {0}", idadeInteiro);
+
         }
     }
 }
