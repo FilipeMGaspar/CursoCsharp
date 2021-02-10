@@ -18,7 +18,10 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine("O preço final é: {0}", totalComDesconto);
 
             //Calculo do IMC
-
+            double peso = 95.6;
+            double altura = 1.82;
+            double imc = peso / (altura * altura);
+            
         }
     }
 }
