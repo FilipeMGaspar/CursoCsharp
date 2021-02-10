@@ -13,7 +13,7 @@ namespace CursoCsharp.Fundamentos
             double.TryParse(Console.ReadLine(), out double nota);
             double notaDeCorte = 7.0;
 
-            Console.WriteLine("Nota Invélida: {0} ", nota > 10.0);
+            Console.WriteLine("Nota Inválida: {0} ", nota > 10.0);
             Console.WriteLine("Nota inválida: {0} ", nota < 0.0);
             Console.WriteLine("Perfeito: {0}", nota == 10);
             Console.WriteLine("Tem como melhorar: {0}", nota != 10);
