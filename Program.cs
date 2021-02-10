@@ -16,7 +16,7 @@ namespace CursoCsharp
                 {"Interpolação de Strings - Fundamentos", Interpolacao.Executar},
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar},
                 {"Ler Dados do Console - Fundamentos", LerDados.Executar},
-                {"Formatando Números - Fundamentos", LerDados.Executar},
+                {"Formatando Números - Fundamentos", FormatandoNumero.Executar},
             });
 
             central.SelecionarEExecutar();
