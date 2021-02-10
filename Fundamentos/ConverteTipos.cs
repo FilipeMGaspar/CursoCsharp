@@ -21,6 +21,9 @@ namespace CursoCsharp.Fundamentos
             int idadeInteiro = int.Parse(idadeString);
             Console.WriteLine("Idade inserida: {0}", idadeInteiro);
 
+            idadeInteiro = Convert.ToInt32(idadeString);
+            Console.WriteLine("Resultado: {0}", idadeInteiro);
+
         }
     }
 }
