@@ -13,7 +13,9 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(quebrado);
 
             double nota = 9.7;
-            int notaTruncada = nota;
+            int notaTruncada = (int)nota;
+            Console.WriteLine("Nota truncada: {0}", notaTruncada);
+
         }
     }
 }
