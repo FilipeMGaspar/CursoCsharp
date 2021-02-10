@@ -17,7 +17,8 @@ namespace CursoCsharp
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar},
                 {"Ler Dados do Console - Fundamentos", LerDados.Executar},
                 {"Formatando Números - Fundamentos", FormatandoNumero.Executar},
-                {" Conversões de Tipos de Dados - Fundamentos", ConverteTipos.Executar},
+                {"Conversões de Tipos de Dados - Fundamentos", ConverteTipos.Executar},
+                {"Operadores Aritméticos  - Fundamentos", ConverteTipos.Executar},
             });
 
             central.SelecionarEExecutar();
