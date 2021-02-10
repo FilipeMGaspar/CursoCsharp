@@ -17,7 +17,7 @@ namespace CursoCsharp.Fundamentos
             Console.Write("Qual é o seu salário? ");
             double salario = double.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{nome} {idade} {salario}");
+            Console.WriteLine($"O {nome} tem {idade} anos e ganha {salario}");
         }
     }
 }
