@@ -12,7 +12,7 @@ namespace CursoCsharp.Fundamentos
             string nome = Console.ReadLine();
 
             Console.Write("Qual é a sua idade? ");
-            int idade = Console.ReadLine();
+            int idade = int.Parse(Console.ReadLine());
         }
     }
 }
