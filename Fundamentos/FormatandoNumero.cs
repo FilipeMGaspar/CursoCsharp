@@ -13,7 +13,11 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(valor.ToString("p"));
             Console.WriteLine(valor.ToString("#.##"));
 
-            CultureInfo cultura = new CultureInfo("pt-PT");
+            CultureInfo cultura = new CultureInfo("en-US");
+            Console.WriteLine(valor.ToString("C2", cultura));
+
+            int inteiro = 256;
+            Console.WriteLine(inteiro.ToString("D10"));
         }
     }
 }
