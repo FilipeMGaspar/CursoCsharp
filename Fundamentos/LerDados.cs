@@ -16,7 +16,7 @@ namespace CursoCsharp.Fundamentos
             int idade = int.Parse(Console.ReadLine());
 
             Console.Write("Qual é o seu salário? ");
-            double salario = double.Parse(Console.ReadLine());
+            double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine($"O {nome} tem {idade} anos e ganha {salario}");
         }
