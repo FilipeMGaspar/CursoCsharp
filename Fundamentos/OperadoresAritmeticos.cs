@@ -16,7 +16,7 @@ namespace CursoCsharp.Fundamentos
             double total = preco + imposto;
             var totalComDesconto = total - (total * desconto);
 
-            Console.WriteLine();
+            Console.WriteLine("O preço final é: {0}", totalComDesconto);
 
         }
     }
