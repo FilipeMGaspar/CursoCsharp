@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CursoCsharp.Fundamentos
 {
-    class OperadoresLogicos1
+    class OperadoresLogicos2
     {
         public static void Executar()
         {
