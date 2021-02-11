@@ -12,7 +12,9 @@ namespace CursoCsharp.Fundamentos
             var executouTrabalho2 = false;
 
             var comprouTv50 = executouTrabalho1 && executouTrabalho2;
+            Console.WriteLine("Comprou Tv 50 {0}", comprouTv50);
 
+            var comprouSorvete = executouTrabalho1 || executouTrabalho2;
         }
     }
 }
