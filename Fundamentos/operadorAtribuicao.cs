@@ -20,6 +20,9 @@ namespace CursoCsharp.Fundamentos
             int a = 1;
             int b = a;
 
+            a++; // a = a + 1;
+            b--; // b = b - 1;
+
         }
     }
 }
