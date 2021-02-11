@@ -16,6 +16,12 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(-valorNegativo);
             Console.WriteLine(!booleano);
 
+            numero1++;
+            Console.WriteLine(numero1);
+
+            --numero1;
+            Console.WriteLine(numero1);
+
         }
     }
 }
