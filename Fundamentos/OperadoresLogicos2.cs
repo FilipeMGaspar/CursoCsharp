@@ -9,7 +9,7 @@ namespace CursoCsharp.Fundamentos
         public static void Executar()
         {
             var executouTrabalho1 = true;
-            var executouTrabalho2 = false;
+            var executouTrabalho2 = true;
 
             var comprouTv50 = executouTrabalho1 && executouTrabalho2;
             Console.WriteLine("Comprou Tv 50: {0}", comprouTv50);
