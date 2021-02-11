@@ -20,8 +20,12 @@ namespace CursoCsharp.Fundamentos
             int a = 1;
             int b = a;
 
-            a++; // a = a + 1;
-            b--; // b = b - 1;
+            a++; // a = a + 1; operador de incremento
+            b--; // b = b - 1; operador de decremento
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
 
         }
     }
