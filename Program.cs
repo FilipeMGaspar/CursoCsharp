@@ -20,6 +20,7 @@ namespace CursoCsharp
                 {"Conversões de Tipos de Dados - Fundamentos", ConverteTipos.Executar},
                 {"Operadores Aritméticos - Fundamentos", OperadoresAritmeticos.Executar},
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
+                {"Operadores Lógicos #01 - Fundamentos", OperadoresLogicos1.Executar},
             });
 
             central.SelecionarEExecutar();
