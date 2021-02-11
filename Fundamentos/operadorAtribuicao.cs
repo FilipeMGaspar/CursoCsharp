@@ -26,6 +26,11 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine(a);
             Console.WriteLine(b);
 
+            //Não se preocupe com o código
+            dynamic c = new System.Dynamic.ExpandoObject();
+            c.nome = "João";
+
+            dynamic d = c;
 
         }
     }
