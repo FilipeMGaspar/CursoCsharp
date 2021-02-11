@@ -16,6 +16,10 @@ namespace CursoCsharp.Fundamentos
             num1 /= 2; //num1 = num1 /2;
 
             Console.WriteLine(num1);
+
+            int a = 1;
+            int b = a;
+
         }
     }
 }
