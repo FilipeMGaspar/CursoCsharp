@@ -8,6 +8,10 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            var executouTrabalho1 = true;
+            var executouTrabalho2 = false;
+
+            var comprouTv50 = executouTrabalho1 && executouTrabalho2;
 
         }
     }
