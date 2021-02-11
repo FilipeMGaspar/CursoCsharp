@@ -15,6 +15,10 @@ namespace CursoCsharp.Fundamentos
             Console.WriteLine("Comprou Tv 50 {0}", comprouTv50);
 
             var comprouSorvete = executouTrabalho1 || executouTrabalho2;
+            Console.WriteLine("Comprou sorbete {0}", comprouSorvete);
+
+            var comprouTv32 = executouTrabalho1 ^ executouTrabalho2;
+            Console.WriteLine();
         }
     }
 }
