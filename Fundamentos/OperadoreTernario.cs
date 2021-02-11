@@ -9,7 +9,8 @@ namespace CursoCsharp.Fundamentos
         public static void Executar()
         {
             var nota = 5.0;
-            string resultado = nota >= 7.0 ? "Aprovado" : "Reprovado"; //Operador ternário
+            bool bomComportamento = true;
+            string resultado = nota >= 7.0 && bomComportamento ? "Aprovado" : "Reprovado"; //Operador ternário
             Console.WriteLine(resultado);
         }
     }
