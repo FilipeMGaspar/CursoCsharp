@@ -31,7 +31,9 @@ namespace CursoCsharp.Fundamentos
             c.nome = "João";
 
             dynamic d = c;
+            d.nome = "Maria";
 
+            Console.WriteLine(c.nome);
         }
     }
 }
