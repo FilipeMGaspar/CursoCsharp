@@ -20,7 +20,14 @@ namespace CursoCsharp.EstruturasDeControlo
                 Console.Write("Insira o seu Palpite: ");
                 int.TryParse(Console.ReadLine(), out palpite);
 
+                tentativas++;
+                tentativasRestantes--;
 
+                if (numeroSecreto == palpite) {
+                    numeroEncontrado = true;
+                    var corAnterior = Console.BackgroundColor;
+                    Console.WriteLine();
+                }
             }
         }
     }
