@@ -8,7 +8,10 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-
+            if (1 < 0)
+            {
+                Console.WriteLine("Correcto-");
+            }
         }
     }
 }
