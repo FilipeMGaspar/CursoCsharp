@@ -8,7 +8,7 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            Console.Write("Avalie o meu Atendimento: [de 0 a 5]");
+            Console.Write("Avalie o meu Atendimento de [0 a 5]: ");
             int.TryParse(Console.ReadLine(), out int nota);
 
             switch (nota) {
