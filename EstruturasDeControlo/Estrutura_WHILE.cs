@@ -17,6 +17,9 @@ namespace CursoCsharp.EstruturasDeControlo
             int tentativas = 0;
 
             while (tentativasRestantes > 0 && !numeroEncontrado){
+                Console.Write("Insira o seu Palpite: ");
+                int.TryParse(Console.ReadLine(), out palpite);
+
 
             }
         }
