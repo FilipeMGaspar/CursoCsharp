@@ -8,7 +8,15 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
+            string entrada;
+            do {
+                Console.Write("Qual o seu nome: ");
+                entrada = Console.ReadLine();
 
+                Console.WriteLine("Seja bem-vindo {0}",entrada);
+                Console.Write("Deseja continuar [s/n]: ");
+
+            } while ();
         }
     }
 }
