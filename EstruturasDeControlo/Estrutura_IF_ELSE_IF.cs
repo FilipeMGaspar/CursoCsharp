@@ -6,8 +6,8 @@ namespace CursoCsharp.EstruturasDeControlo
 {
     class Estrutura_IF_ELSE_IF
     {
-        public static void Executar()
-        {
+        public static void Executar() {
+
             Console.Write("Digite a nota do aluno: ");
             string entrada = Console.ReadLine();
             Double.TryParse(entrada, out double nota);
