@@ -15,8 +15,9 @@ namespace CursoCsharp.EstruturasDeControlo
 
                 Console.WriteLine("Seja bem-vindo {0}",entrada);
                 Console.Write("Deseja continuar [s/n]: ");
+                entrada = Console.ReadLine();
 
-            } while ();
+            } while (entrada.ToLower() == "s");
         }
     }
 }
