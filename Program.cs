@@ -32,6 +32,7 @@ namespace CursoCsharp
                 {"Estrutura IF/ELSE - Estruturas de Controle", Estrutura_IF_ELSE.Executar},
                 {"Estrutura IF/ELSE IF - Estruturas de Controle", Estrutura_IF_ELSE_IF.Executar},
                 {"Estrutura SWITCH - Estruturas de Controle", Estrutura_SWITCH.Executar},
+                {"Estrutura DO WHILE - Estruturas de Controle", Estrutura_DO_WHILE.Executar},
 
             });
 
