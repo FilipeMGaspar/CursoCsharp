@@ -8,10 +8,13 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            if (1 < 0)
-            {
-                Console.WriteLine("Correcto-");
-            }
+            bool bomComportamento = false;
+            string entrada;
+
+            Console.Write("Digite a Nota do aluno: ");
+            entrada = Console.ReadLine();
+            Double.TryParse(entrada, out double nota);
+
         }
     }
 }
