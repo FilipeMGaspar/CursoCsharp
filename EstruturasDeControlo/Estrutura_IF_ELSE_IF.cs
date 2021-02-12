@@ -16,10 +16,8 @@ namespace CursoCsharp.EstruturasDeControlo
             {
                 Console.WriteLine("Quadro de Honra!");
             }
-            else {
-                if (nota >= 7.0 && nota < 9.0){
+            else if (nota >= 7.0 && nota < 9.0){
                     Console.WriteLine("Aprovado!");
-                }
             }
         }
     }
