@@ -26,7 +26,8 @@ namespace CursoCsharp.EstruturasDeControlo
                 if (numeroSecreto == palpite) {
                     numeroEncontrado = true;
                     var corAnterior = Console.BackgroundColor;
-                    Console.WriteLine();
+                    Console.BackgroundColor = ConsoleColor.Green; 
+                    Console.WriteLine("Número encontrado em {0} tentativas", tentativas);
                 }
             }
         }
