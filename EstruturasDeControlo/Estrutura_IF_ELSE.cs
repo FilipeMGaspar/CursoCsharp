@@ -13,9 +13,9 @@ namespace CursoCsharp.EstruturasDeControlo
             if (nota >= 7.0){
                 Console.WriteLine("Aprovado!");
                 Console.WriteLine("Não fez mais que a  sua obrigação");
-            }else
-            {
+            }else {
                 Console.WriteLine("..: Recuperação :..");
+                Console.WriteLine("Que feio!!!");
             }
         }
     }
