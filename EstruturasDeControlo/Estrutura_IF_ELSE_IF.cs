@@ -19,6 +19,8 @@ namespace CursoCsharp.EstruturasDeControlo
             } else if (nota >= 5.0 && nota < 7.0) {
                 Console.WriteLine("..: Em Recuperação :..");
             }
+
+            Console.WriteLine("Fim! !");
         }
         
     }
