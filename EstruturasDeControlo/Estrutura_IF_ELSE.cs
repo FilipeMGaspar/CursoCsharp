@@ -8,7 +8,7 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            double nota = 7.0;
+            double nota = 6.0;
 
             if (nota >= 7.0){
                 Console.WriteLine("Aprovado!");
