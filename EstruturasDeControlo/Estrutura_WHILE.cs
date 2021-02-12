@@ -8,7 +8,17 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
+            int palpite = 0;
+            Random aleatorio = new Random();
 
+            int numeroSecreto = aleatorio.Next(1, 16); // Número aleatório entre 1 e 15
+            bool numeroEncontrado = false;
+            int tentativasRestantes = 5;
+            int tentativas = 0;
+
+            while (tentativasRestantes > 0 && !numeroEncontrado){
+
+            }
         }
     }
 }
