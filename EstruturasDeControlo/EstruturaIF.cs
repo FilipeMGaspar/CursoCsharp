@@ -18,8 +18,10 @@ namespace CursoCsharp.EstruturasDeControlo
             Console.WriteLine("Possui bom comportamento [S/N]");
             entrada = Console.ReadLine();
 
-            if (entrada == "S" || entrada == "s")
-                bomComportamento = true;
+            //if (entrada == "S" || entrada == "s")
+                //bomComportamento = true;
+            // outra forma  
+            bomComportamento = entrada == "S" || entrada == "s";
 
             if (nota >= 9.0 && bomComportamento)
                 Console.WriteLine("Quadro de Honra");
