@@ -28,8 +28,18 @@ namespace CursoCsharp.EstruturasDeControlo
                     var corAnterior = Console.BackgroundColor;
                     Console.BackgroundColor = ConsoleColor.Green; 
                     Console.WriteLine("Número encontrado em {0} tentativas", tentativas);
+                    Console.BackgroundColor = corAnterior;
+                }else if (palpite > numeroSecreto) {
+                    Console.WriteLine("Menor... Tente Novamente!");
+                    Console.WriteLine("Tentativas restantes: {0}",tentativasRestantes);
+                }
+                else {
+                    Console.WriteLine("Maior... Tente novamente!");
+                    Console.WriteLine("Tentativas restantes: {0}", tentativasRestantes);
                 }
             }
+            Console.WriteLine("Fim do jogo. Muito obrigado por jogar!");
+
         }
     }
 }
