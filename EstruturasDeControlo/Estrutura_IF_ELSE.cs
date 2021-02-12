@@ -14,8 +14,8 @@ namespace CursoCsharp.EstruturasDeControlo
                 Console.WriteLine("Aprovado!");
                 Console.WriteLine("Não fez mais que a  sua obrigação");
             }else {
-                Console.WriteLine("..: Recuperação :..");
-                Console.WriteLine("Que feio!!!");
+                Console.WriteLine("..: Em Recuperação :..");
+                Console.WriteLine("Vamos Estudar!!!");
             }
         }
     }
