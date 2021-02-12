@@ -15,6 +15,15 @@ namespace CursoCsharp.EstruturasDeControlo
             entrada = Console.ReadLine();
             Double.TryParse(entrada, out double nota);
 
+            Console.WriteLine("Possui bom comportamento [S/N]");
+            entrada = Console.ReadLine();
+
+            if (entrada == "S" || entrada == "s")
+                bomComportamento = true;
+
+            if (nota >= 9.0 && bomComportamento)
+                Console.WriteLine("Quadro de Honra");
+
         }
     }
 }
