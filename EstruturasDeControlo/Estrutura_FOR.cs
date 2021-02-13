@@ -8,10 +8,13 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            for (int i = 0; i<=10; i++) {
-                Console.WriteLine($"O valor de i é : {i}");
-            }
-            /* Estrutura While
+            
+            //Estrutora de repetição for
+            //for (int i = 0; i<=10; i++) {
+            //    Console.WriteLine($"O valor de i é : {i}");
+            //}
+
+            /* Estrutura de repetição While
             int i = 0;
 
             while(i <= 10)
