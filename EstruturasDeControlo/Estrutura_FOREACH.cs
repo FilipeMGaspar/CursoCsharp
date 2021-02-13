@@ -8,7 +8,12 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            Console.WriteLine("olá");
+            var palavra = "Opa!";
+
+            foreach (var letra in palavra)
+            {
+                Console.WriteLine(letra);
+            }
         }
     }
 }
