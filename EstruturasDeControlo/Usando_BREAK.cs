@@ -14,7 +14,14 @@ namespace CursoCsharp.EstruturasDeControlo
             Console.WriteLine("O número a encontrar: {0}", numero);
 
             for (int i = 1; i<=50; i++) {
+                Console.WriteLine("{0} é o numero que qeremos? ", i);
+                if (i == numero) {
+                    Console.WriteLine("SIM!");
+                } else {
+                    Console.WriteLine("NÃO!");
+                }
 
+                
             }
         }
     }
