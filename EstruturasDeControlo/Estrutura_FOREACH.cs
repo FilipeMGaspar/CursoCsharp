@@ -8,7 +8,7 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-
+            Console.WriteLine("olá");
         }
     }
 }
