@@ -8,12 +8,12 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
-            int i = 1;
+            int i = 0;
 
             while(i <= 10)
             {
                 Console.WriteLine($"O valor de i é {i}");
-                i++;
+                i +=2;
             }
         }
 
