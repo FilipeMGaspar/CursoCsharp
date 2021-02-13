@@ -8,6 +8,10 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
+            for (int i = 0; i<=10; i++) {
+                Console.WriteLine($"O valor de i é : {i}");
+            }
+            /* Estrutura While
             int i = 0;
 
             while(i <= 10)
@@ -15,6 +19,7 @@ namespace CursoCsharp.EstruturasDeControlo
                 Console.WriteLine($"O valor de i é {i}");
                 i +=2;
             }
+            */
         }
 
     }
