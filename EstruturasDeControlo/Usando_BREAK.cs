@@ -8,7 +8,14 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
+            Random random = new Random();
+            int numero = random.Next(1, 51); // número aleatóreo entre 1 e 50
 
+            Console.WriteLine("O número a encontrar: {0}", numero);
+
+            for (int i = 1; i<=50; i++) {
+
+            }
         }
     }
 }
