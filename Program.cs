@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCsharp.Fundamentos;
 using CursoCsharp.EstruturasDeControlo;
+using CursoCsharp.ClassesEMetodos;
 
 namespace CursoCsharp
 {
@@ -41,7 +42,7 @@ namespace CursoCsharp
 
 
                 //Seção 5: Classes & Métodos
-                
+                {"Membros, Atributos e Métodos -  Classes & Métodos ", Membros.Executar},
             });
 
             central.SelecionarEExecutar();
