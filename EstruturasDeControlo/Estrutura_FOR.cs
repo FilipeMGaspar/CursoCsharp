@@ -16,7 +16,7 @@ namespace CursoCsharp.EstruturasDeControlo
             int.TryParse(entrada, out int tamanhoTurma);
 
             for (int i = 1; i<= tamanhoTurma; i++) {
-                Console.WriteLine($"Nota do {i}º aluno: ");
+                Console.Write($"Nota do {i}º aluno: ");
                 entrada = Console.ReadLine();
                 double.TryParse(entrada, out double notaAtual);
 
