@@ -39,6 +39,9 @@ namespace CursoCsharp
                 {"Usando BREAK - Estruturas de Controle", Usando_BREAK.Executar},
                 {"Usando CONTINUE - Estruturas de Controle", Usando_CONTINUE.Executar},
 
+
+                //Seção 5: Classes & Métodos
+                
             });
 
             central.SelecionarEExecutar();
