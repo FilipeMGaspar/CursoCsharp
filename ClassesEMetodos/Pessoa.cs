@@ -16,5 +16,10 @@ namespace CursoCsharp.ClassesEMetodos {
         public void ApresentarNoConsole() {
             Console.WriteLine(Apresentar());
         }
+
+        public void Zerar() {
+            Nome = "";
+            Idade = 0;
+        }
     }
 }
