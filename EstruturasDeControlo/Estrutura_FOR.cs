@@ -18,8 +18,13 @@ namespace CursoCsharp.EstruturasDeControlo
             for (int i = 1; i<= tamanhoTurma; i++) {
                 Console.WriteLine($"Nota do {i}º aluno: ");
                 entrada = Console.ReadLine();
+                double.TryParse(entrada, out double notaAtual);
 
+                somatorio += notaAtual;
             }
+
+            double mediaTurma = tamanhoTurma > 0 ? somatorio / tamanhoTurma : 0;
+            Console.WriteLine($"Média da turma {mediaTurma}");
 
             //Estrutora de repetição for
             //for (int i = 0; i<=10; i++) {
