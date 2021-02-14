@@ -15,6 +15,9 @@ namespace CursoCsharp.ClassesEMetodos {
             Ano = ano;
         }
 
+        public Carro() {
+
+        }
     }
 
     class Construtores {
