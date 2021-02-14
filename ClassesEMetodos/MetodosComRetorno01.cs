@@ -20,7 +20,12 @@ namespace CursoCsharp.ClassesEMetodos {
 
     class MetodosComRetorno01 {
         public static void Executar() {
+            var calculadoraComum = new CalculadoraComum();
+            var resultado = calculadoraComum.Somar(2, 3);
 
+            Console.WriteLine(resultado);
+            Console.WriteLine(calculadoraComum.subtrair(2, 7));
+            Console.WriteLine(calculadoraComum.Multiplicar(4, 4));
         }
     }
 }
