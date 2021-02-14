@@ -5,6 +5,8 @@ using System.Text;
 namespace CursoCsharp.ClassesEMetodos {
     class Membros {
         public static void Executar() {
+            //Membros: Atributos e Métodos
+
             Pessoa sicrano = new Pessoa();
 
             sicrano.Nome = "Renato";
