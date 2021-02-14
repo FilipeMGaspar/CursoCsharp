@@ -12,7 +12,7 @@ namespace CursoCsharp
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 // Fundamentos - Seção 3 - Fundamentos
-                {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
+                {"Primeiro Programa! - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variáveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
                 {"Inferência de Tipos - Fundamentos", Inferencias.Executar},
