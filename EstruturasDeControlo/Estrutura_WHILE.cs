@@ -16,6 +16,7 @@ namespace CursoCsharp.EstruturasDeControlo
             int tentativasRestantes = 5;
             int tentativas = 0;
 
+           //Estrutura while
             while (tentativasRestantes > 0 && !numeroEncontrado){
                 Console.Write("Insira o seu Palpite: ");
                 int.TryParse(Console.ReadLine(), out palpite);
