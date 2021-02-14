@@ -7,6 +7,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+           //Formatação de números
             double valor = 15.175;
             Console.WriteLine(valor.ToString("F1"));
             Console.WriteLine(valor.ToString("C"));
