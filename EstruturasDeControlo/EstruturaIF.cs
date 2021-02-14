@@ -8,6 +8,7 @@ namespace CursoCsharp.EstruturasDeControlo
     {
         public static void Executar()
         {
+            //Estrutura IF
             bool bomComportamento = false;
             string entrada;
 
