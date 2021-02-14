@@ -63,7 +63,6 @@ namespace CursoCsharp.ClassesEMetodos {
             
             Console.WriteLine();
             Console.WriteLine("Calculadora em cadeia");
-            Console.WriteLine();
             var calculadoraCadeia = new CalculadoraCadeia();
             calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
         }
