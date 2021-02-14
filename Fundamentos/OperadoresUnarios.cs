@@ -8,6 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            //Operadores unários
             var valorNegativo = -5;
             var numero1 = 2;
             var numero2 = 3;
