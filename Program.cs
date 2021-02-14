@@ -43,7 +43,7 @@ namespace CursoCsharp
 
                 //Seção 5: Classes & Métodos
                 {"Membros, Atributos e Métodos -  Classes & Métodos ", Membros.Executar},
-                 {"Construtores, Atributos e Métodos -  Classes & Métodos ", Construtores.Executar},
+                {"Construtores, Atributos e Métodos -  Classes & Métodos ", Construtores.Executar},
             });
 
             central.SelecionarEExecutar();
