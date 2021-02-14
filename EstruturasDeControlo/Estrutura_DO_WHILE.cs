@@ -9,6 +9,7 @@ namespace CursoCsharp.EstruturasDeControlo
         public static void Executar()
         {
             string entrada;
+            //Estrutura do While
             do {
                 Console.Write("Qual o seu nome: ");
                 entrada = Console.ReadLine();
