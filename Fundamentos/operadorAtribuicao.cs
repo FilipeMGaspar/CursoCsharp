@@ -8,6 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            //operadores de atribuição
             var num1 = 3;
             num1 = 7;
             num1 += 10; // num1 = num1 + 10;
