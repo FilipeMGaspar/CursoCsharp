@@ -9,7 +9,7 @@ namespace CursoCsharp.ClassesEMetodos {
         public string Fabricante;
         public int Ano;
 
-        public Carro(Sting modelo, string fabricante, int ano) {
+        public Carro(string modelo, string fabricante, int ano) {
             Modelo = modelo;
             Fabricante = fabricante;
             Ano = ano;
