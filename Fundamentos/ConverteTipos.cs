@@ -8,6 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+           //Converção de tipos de dados
             int inteiro = 10;
             double quebrado = inteiro;
             Console.WriteLine(quebrado);
