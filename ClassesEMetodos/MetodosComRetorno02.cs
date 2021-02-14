@@ -8,7 +8,7 @@ namespace CursoCsharp.ClassesEMetodos {
             return a + b;
         }
 
-        public int subtrair(int a, int b) {
+        public int Subtrair(int a, int b) {
             return a - b;
         }
 
@@ -21,6 +21,7 @@ namespace CursoCsharp.ClassesEMetodos {
         }
     }
 
+    /*
     class CalculadoraCadeia {
         int memoria;
 
@@ -48,20 +49,20 @@ namespace CursoCsharp.ClassesEMetodos {
             return memoria;
         }
     }
-
+    */
     class MetodosComRetorno02 {
         public static void Executar() {
             var calculadoraComum = new CalculadoraComum();
             var resultado = calculadoraComum.Somar(8, 3);
 
             Console.WriteLine(resultado);
-            Console.WriteLine(calculadoraComum.subtrair(2, 7));
+            Console.WriteLine(calculadoraComum.Subtrair(2, 7));
             Console.WriteLine(calculadoraComum.Multiplicar(4, 4));
             Console.WriteLine(calculadoraComum.Dividir(24, 3));
 
 
-            var calculadoraCadeia = new CalculadoraCadeia();
-            calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
+            //var calculadoraCadeia = new CalculadoraCadeia();
+            //calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
         }
     }
 }
