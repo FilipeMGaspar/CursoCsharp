@@ -24,22 +24,22 @@ namespace CursoCsharp.ClassesEMetodos {
     class CalculadoraCadeia {
         int memoria;
 
-        public CalculadoraCadeia Somar(int a) {
+        public CalculadoraCadeia Soma(int a) {
             memoria += a;
             return this;
         }
 
-        public CalculadoraCadeia Multiplicar(int a) {
+        public CalculadoraCadeia Multiplica(int a) {
             memoria *= a;
             return this;
         }
 
-        public CalculadoraCadeia Limpar() {
+        public CalculadoraCadeia Limpa() {
             memoria = 0;
             return this;
         }
 
-        public CalculadoraCadeia Imprimir() {
+        public CalculadoraCadeia Imprime() {
             Console.WriteLine(memoria);
             return this;
         }
@@ -61,7 +61,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
 
             var calculadoraCadeia = new CalculadoraCadeia();
-            calculadoraCadeia.Somar(3).Multiplicar(3).Imprimir().Limpar().Imprimir();
+            calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
         }
     }
 }
