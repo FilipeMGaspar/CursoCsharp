@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CursoCsharp.ClassesEMetodos {
     class Pessoa {
+        //Membros: Atributos e Métodos
         //atributos
         public string Nome; // valor padrão null 
         public int Idade; // tem valor padrão 0

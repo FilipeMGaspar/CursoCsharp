@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.ClassesEMetodos {
     class Membros {
         public static void Executar() {
-            //Membros: Atributos e Métodos
+            //Membros: Atributos e Métodos com ligação á class Pessoa
 
             Pessoa sicrano = new Pessoa();
 
