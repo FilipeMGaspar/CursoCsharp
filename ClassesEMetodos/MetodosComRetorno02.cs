@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCsharp.ClassesEMetodos {
+    //Métodos Com Retorno 02
     class CalculadoraComum1 {
         public int Somar(int a, int b) {
             return a + b;
