@@ -55,12 +55,15 @@ namespace CursoCsharp.ClassesEMetodos {
             var calculadoraComum1 = new CalculadoraComum1();
             var resultado = calculadoraComum1.Somar(10, 3);
 
+            Console.WriteLine("Calculadora Comum");
             Console.WriteLine(resultado);
             Console.WriteLine(calculadoraComum1.Subtrair(10, 20));
             Console.WriteLine(calculadoraComum1.Multiplicar(6, 2));
             Console.WriteLine(calculadoraComum1.Dividir(27, 3));
-
-
+            
+            Console.WriteLine();
+            Console.WriteLine("Calculadora em cadeia");
+            Console.WriteLine();
             var calculadoraCadeia = new CalculadoraCadeia();
             calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
         }
