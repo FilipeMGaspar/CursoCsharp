@@ -10,7 +10,7 @@ namespace CursoCsharp.EstruturasDeControlo
         {
             Console.Write("Avalie o meu Atendimento de [0 a 5]: ");
             int.TryParse(Console.ReadLine(), out int nota);
-
+            //Estrutura switch
             switch (nota) {
                 case 0:
                     Console.WriteLine("Pésimo");
