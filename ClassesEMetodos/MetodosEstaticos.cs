@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.ClassesEMetodos {
     class MetodosEstaticos {
         public static void Executar() {
-
+            //
         }
     }
 }
