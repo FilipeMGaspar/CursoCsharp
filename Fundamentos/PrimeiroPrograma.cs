@@ -9,7 +9,7 @@ namespace CursoCsharp.Fundamentos
         public static void Executar()
         {
             System.Console.Write("Primeiro ");
-            Console.WriteLine("Programa");
+            Console.WriteLine("Programa!");
             Console.WriteLine("Terminou!");
         }
     }
