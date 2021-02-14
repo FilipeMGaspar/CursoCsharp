@@ -14,7 +14,7 @@ namespace CursoCsharp.Fundamentos
             double area = PI * (raio * raio);
             Console.WriteLine("O valor da área da circunferencia é " + area);
 
-            //Tipos internos..
+            //Tipos internos...
             bool chove = true;
             Console.WriteLine("Está a chover " + chove);
 
