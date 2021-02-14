@@ -65,6 +65,9 @@ namespace CursoCsharp.ClassesEMetodos {
             Console.WriteLine("Calculadora em cadeia");
             var calculadoraCadeia = new CalculadoraCadeia();
             calculadoraCadeia.Soma(3).Multiplica(3).Imprime().Limpa().Imprime();
+
+            resultado = calculadoraCadeia.Soma(5).Multiplica(5).Resultado();
+            Console.WriteLine(resultado);
         }
     }
 }
