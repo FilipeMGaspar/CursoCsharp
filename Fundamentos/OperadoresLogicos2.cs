@@ -8,6 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
+            //operadores lógicos
             var executouTrabalho1 = false;
             var executouTrabalho2 = false;
 
