@@ -9,7 +9,7 @@ namespace CursoCsharp.Fundamentos
         public static void Executar()
         {
             var nome = "Filipe";
-            //nome = 123;
+            //nome = 123; !
             Console.WriteLine("O meu nome é "+nome);
 
             var idade = 36;
