@@ -10,7 +10,7 @@ namespace CursoCsharp.Fundamentos
         public static void Executar()
         {
             Console.Write("Qual é o seu nome? ");
-            string nome = Console.ReadLine();
+            string nome = Console.ReadLine();//Ler dados da consola
 
             Console.Write("Qual é a sua idade? ");
             int idade = int.Parse(Console.ReadLine());
