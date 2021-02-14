@@ -35,8 +35,7 @@ namespace CursoCsharp.ClassesEMetodos {
                 Fabricante = "Fiat",
                 Modelo = "Uno",
                 Ano = 2019
-            }
-            Console.WriteLine($"{carro3.Fabricante} {carro3.Modelo} {carro3.Ano}");
-        }
+            };
+            Console.WriteLine($"{carro3.Fabricante} {carro3.Modelo} {carro3.Ano}");        }
     }
 }
