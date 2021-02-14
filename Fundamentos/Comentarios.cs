@@ -13,7 +13,7 @@ namespace CursoCsharp.Fundamentos
         {
             //Cuidado dom os comentários desnecessários
             /*
-             Este é um comentário
+             Este é um comentário,
              de multiplas linhas 
              */
             Console.WriteLine("Código claro é sempre melhor!");
