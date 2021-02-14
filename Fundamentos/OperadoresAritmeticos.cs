@@ -8,7 +8,7 @@ namespace CursoCsharp.Fundamentos
     {
         public static void Executar()
         {
-            //preço com desconto
+            //Calcular preço com desconto
             var preco = 1000.0;
             var imposto = 355;
             var desconto = 0.1;
