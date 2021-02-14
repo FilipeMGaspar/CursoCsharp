@@ -9,7 +9,7 @@ namespace CursoCsharp.EstruturasDeControlo
         public static void Executar()
         {
             var palavra = "Opa!";
-
+            //Estrutura foreach
             foreach (var letra in palavra)
             {
                 Console.WriteLine(letra);
