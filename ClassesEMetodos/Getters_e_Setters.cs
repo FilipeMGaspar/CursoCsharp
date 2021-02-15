@@ -6,7 +6,9 @@ namespace CursoCsharp.ClassesEMetodos {
     class Getters_e_Setters {
 
         public class Moto {
-            private 
+            private string Marca;
+            private string Modelo;
+            private int Cilindrada;
         }
 
         public static void Executar() {
