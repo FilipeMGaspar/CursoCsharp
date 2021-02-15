@@ -10,7 +10,7 @@ namespace CursoCsharp.ClassesEMetodos {
             private string Modelo;
             private uint Cilindrada;
 
-            public Moto(string marca, string modelo, int cilindrada) {
+            public Moto(string marca, string modelo, uint cilindrada) {
                 //Marca = marca;
                 //Modelo = modelo;
                 //Cilindrada = cilindrada;
@@ -57,7 +57,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
 
         public static void Executar() {
-            var moto1 = new Moto("Kawasaki", "Ninja Zx-Gr", -636);
+            var moto1 = new Moto("Kawasaki", "Ninja Zx-Gr", 636);
 
             Console.WriteLine(moto1.GetMarca());
             Console.WriteLine(moto1.GetModelo());
@@ -67,7 +67,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
             moto2.SetMarca("Honda");
             moto2.SetModelo("CG Titan");
-            moto2.SetCilindrada(-150);
+            moto2.SetCilindrada(150);
 
             Console.WriteLine(moto2.GetMarca() + " " + moto2.GetModelo() + " " +moto2.GetCilindrada() );
         }
