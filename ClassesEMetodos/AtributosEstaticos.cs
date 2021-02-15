@@ -38,13 +38,13 @@ namespace CursoCsharp.ClassesEMetodos {
                 Preco = 5.2,
             };
 
-            Produto.Desconto = 0.5;
+            Produto.Desconto = 0.5;//Aceder uma variavél estática
 
             Console.WriteLine("Preço com desconto: {0}", probuto1.CalcularDesconto());
 
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
 
-            Produto.Desconto = 0.02;
+            Produto.Desconto = 0.02;//Aceder uma variavél estática
 
             Console.WriteLine("Preço com desconto: {0}", probuto1.CalcularDesconto());
 
