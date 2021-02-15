@@ -47,6 +47,9 @@ namespace CursoCsharp.ClassesEMetodos {
         public static void Executar() {
             var moto1 = new Moto("Kawasaki", "Ninja Zx-Gr", 636);
 
+            Console.WriteLine(moto1.GetMarca());
+            Console.WriteLine(moto1.GetModelo());
+            Console.WriteLine(moto1.GetCilindrada());
         }
     }
 }
