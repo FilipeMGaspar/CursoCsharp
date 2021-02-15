@@ -4,8 +4,11 @@ using System.Text;
 
 namespace CursoCsharp.ClassesEMetodos {
     class Desafio_Acessar_Atributo {
-        public static void Executar() {
 
+        int a = 10;
+        public static void Executar() {
+            // Acessar a variavel a dentro método executar
+            Console.WriteLine(a);
         }
 
     }
