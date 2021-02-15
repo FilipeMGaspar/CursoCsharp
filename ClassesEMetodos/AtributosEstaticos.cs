@@ -38,11 +38,17 @@ namespace CursoCsharp.ClassesEMetodos {
                 Preco = 5.2,
             };
 
+            Produto.Desconto = 0.5;
+
             Console.WriteLine("Preço com desconto: {0}", probuto1.CalcularDesconto());
 
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
 
-            Produto.Desconto = 0.5;
+            Produto.Desconto = 0.02;
+
+            Console.WriteLine("Preço com desconto: {0}", probuto1.CalcularDesconto());
+
+            Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
         }
     }
 }
