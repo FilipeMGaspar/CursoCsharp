@@ -51,6 +51,7 @@ namespace CursoCsharp
                 {"Desafio Acessar Atributo -  Classes & Métodos ", Desafio_Acessar_Atributo.Executar},
                 {"Parâmetros Variáveis -  Classes & Métodos ", ParametrosVariaveis.Executar},
                 {"Parâmetros Nomeados -  Classes & Métodos ", ParametrosNomeados.Executar},
+                {"Getters & Setters -  Classes & Métodos ", Getters_e_Setters.Executar},
             });
 
             central.SelecionarEExecutar();
