@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCsharp.ClassesEMetodos {
-    class AtributosEstaticos {
 
+    public class Produto {
         public string Nome;
         public double Preco;
         public double Desconto = 0.1;
@@ -19,11 +19,25 @@ namespace CursoCsharp.ClassesEMetodos {
 
         }
 
-        public double CalculadoraDesconto() {
+        public double CalcularDesconto() {
             return Preco - Preco * Desconto;
         }
-        public static void Executar() {
 
+    }
+
+    
+  
+
+    class AtributosEstaticos { 
+        
+        public static void Executar() {
+            var probuto1 = new Produto("Caneta", 3.2, 0.1);
+
+            var produto2 = new Produto() {
+                Nome = "Borracha",
+                Preco = 5.2,
+                Desconto = 0.5
+            };
         }
     }
 }
