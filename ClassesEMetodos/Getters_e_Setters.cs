@@ -34,7 +34,12 @@ namespace CursoCsharp.ClassesEMetodos {
                 Modelo = modelo;
             } 
 
-
+            public int GetCilindrada() {
+                return Cilindrada;
+            }
+            public void SetCilindrada(int cilindrada) {
+                Cilindrada = cilindrada;
+            }
         }
 
         public static void Executar() {
