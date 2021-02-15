@@ -20,6 +20,8 @@ namespace CursoCsharp.ClassesEMetodos {
 
             }
 
+
+            //Métodos Getters e Setters
             public string GetMarca() {
                 return Marca;
             }
