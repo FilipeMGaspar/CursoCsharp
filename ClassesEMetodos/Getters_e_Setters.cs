@@ -8,7 +8,7 @@ namespace CursoCsharp.ClassesEMetodos {
         public class Moto {
             private string Marca;
             private string Modelo;
-            private int Cilindrada;
+            private uint Cilindrada;
 
             public Moto(string marca, string modelo, int cilindrada) {
                 //Marca = marca;
@@ -39,14 +39,19 @@ namespace CursoCsharp.ClassesEMetodos {
                 Modelo = modelo;
             } 
 
-            public int GetCilindrada() {
+            public uint GetCilindrada() {
                 return Cilindrada;
             }
-            public void SetCilindrada(int cilindrada) {
+            public void SetCilindrada(uint cilindrada) {
+                //primeira opção
                 //if (cilindrada > 0) {
                 //    Cilindrada = cilindrada;
                 //}
-                Cilindrada = Math.Abs(cilindrada);
+
+                //Segunda opção
+                //Cilindrada = Math.Abs(cilindrada);
+
+                Cilindrada = cilindrada; // utilizando uint na variavel privat uint Cilindrada
             }
         }
 
