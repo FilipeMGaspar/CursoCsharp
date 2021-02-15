@@ -43,9 +43,10 @@ namespace CursoCsharp.ClassesEMetodos {
                 return Cilindrada;
             }
             public void SetCilindrada(int cilindrada) {
-                if (cilindrada > 0) {
-                    Cilindrada = cilindrada;
-                }                
+                //if (cilindrada > 0) {
+                //    Cilindrada = cilindrada;
+                //}
+                Cilindrada = Math.Abs(cilindrada);
             }
         }
 
