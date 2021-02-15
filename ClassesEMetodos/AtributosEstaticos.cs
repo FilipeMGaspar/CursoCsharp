@@ -7,7 +7,7 @@ namespace CursoCsharp.ClassesEMetodos {
     public class Produto {
         public string Nome;
         public double Preco;
-        public double Desconto = 0.1;
+        public static double Desconto = 0.1;
 
         public Produto(string nome, double preco, double desconto) {
             Nome = nome;
@@ -36,12 +36,13 @@ namespace CursoCsharp.ClassesEMetodos {
             var produto2 = new Produto() {
                 Nome = "Borracha",
                 Preco = 5.2,
-                Desconto = 0.5
             };
 
             Console.WriteLine("Preço com desconto: {0}", probuto1.CalcularDesconto());
 
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
+
+            Produto.Desconto = 0.5;
         }
     }
 }
