@@ -10,7 +10,7 @@ namespace CursoCsharp.ClassesEMetodos {
         }
 
         public static void Executar() {
-            Formatar(mes: 1, dia : 6, ano: 1996);
+            Formatar(mes: 3, dia : 11, ano: 2010);
         }
     }
 }
