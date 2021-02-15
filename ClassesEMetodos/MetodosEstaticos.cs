@@ -16,6 +16,9 @@ namespace CursoCsharp.ClassesEMetodos {
         }
         public static void Executar() {
             //Métodos estáticos
+            var resultado = CalculadoraEstatica.Multiplicar(2,2);
+            Console.WriteLine("Resultado {0}", resultado);
+
 
         }
     }
