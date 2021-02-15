@@ -40,12 +40,15 @@ namespace CursoCsharp.ClassesEMetodos {
                 return Cilindrada;
             }
             public void SetCilindrada(int cilindrada) {
-                Cilindrada = cilindrada;
+                if (cilindrada > 0) {
+                    Cilindrada = cilindrada;
+                }                
             }
         }
 
+
         public static void Executar() {
-            var moto1 = new Moto("Kawasaki", "Ninja Zx-Gr", 636);
+            var moto1 = new Moto("Kawasaki", "Ninja Zx-Gr", -636);
 
             Console.WriteLine(moto1.GetMarca());
             Console.WriteLine(moto1.GetModelo());
