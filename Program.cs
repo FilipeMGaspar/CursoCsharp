@@ -49,6 +49,7 @@ namespace CursoCsharp
                 {"Métodos Estáticos -  Classes & Métodos ", MetodosEstaticos.Executar},
                 {"Atributos Estáticos -  Classes & Métodos ", AtributosEstaticos.Executar},
                 {"Desafio Acessar Atributo -  Classes & Métodos ", Desafio_Acessar_Atributo.Executar},
+                {"Parâmetros Variáveis -  Classes & Métodos ", ParametrosVariaveis.Executar},
             });
 
             central.SelecionarEExecutar();
