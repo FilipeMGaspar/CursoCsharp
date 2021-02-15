@@ -11,9 +11,12 @@ namespace CursoCsharp.ClassesEMetodos {
             private int Cilindrada;
 
             public Moto(string marca, string modelo, int cilindrada) {
-                Marca = marca;
-                Modelo = modelo;
-                Cilindrada = cilindrada;
+                //Marca = marca;
+                //Modelo = modelo;
+                //Cilindrada = cilindrada;
+                SetMarca(marca);
+                SetModelo(modelo);
+                SetCilindrada(cilindrada);
             }
 
             public Moto() {
