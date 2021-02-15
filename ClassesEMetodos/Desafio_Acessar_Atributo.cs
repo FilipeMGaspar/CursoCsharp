@@ -8,7 +8,8 @@ namespace CursoCsharp.ClassesEMetodos {
         int a = 10;
         public static void Executar() {
             // Acessar a variavel a dentro método executar
-            Console.WriteLine(a);
+            Desafio_Acessar_Atributo atributo = new Desafio_Acessar_Atributo();
+            Console.WriteLine(atributo.a);
         }
 
     }
