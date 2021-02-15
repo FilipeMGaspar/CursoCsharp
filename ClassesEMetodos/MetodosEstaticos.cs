@@ -6,10 +6,12 @@ namespace CursoCsharp.ClassesEMetodos {
     class MetodosEstaticos {
 
         public class CalculadoraEstatica {
+            //Métodos intanciável
             public int Somar(int a, int b) {
                 return a + b;
             }
 
+            //Métodos estáticos
             public static int Multiplicar(int a, int b) {
                 return a * b;
             }
