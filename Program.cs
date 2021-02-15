@@ -47,6 +47,7 @@ namespace CursoCsharp
                 {"Métodos Com Retorno 01 -  Classes & Métodos ", MetodosComRetorno01.Executar},
                 {"Métodos Com Retorno 02 -  Classes & Métodos ", MetodosComRetorno02.Executar},
                 {"Métodos Estáticos -  Classes & Métodos ", MetodosEstaticos.Executar},
+                {"Atributos Estáticos -  Classes & Métodos ", AtributosEstaticos.Executar},
             });
 
             central.SelecionarEExecutar();
