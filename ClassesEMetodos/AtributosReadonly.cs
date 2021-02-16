@@ -6,11 +6,14 @@ namespace CursoCsharp.ClassesEMetodos {
 
     public class Cliente {
         public string Nome;
-        DateTime Nascimento; //Private DateTime Nascimente;
+        readonly DateTime Nascimento; //Private DateTime Nascimente;
+        
 
         public Cliente(string nome, DateTime nascimento) {
             Nome = nome;
             Nascimento = nascimento;
+
+            //Nascimento = new DateTime(2020,10,10);
         }
 
         public string GetDataNascimento() {
@@ -25,6 +28,8 @@ namespace CursoCsharp.ClassesEMetodos {
 
             Console.Write("Nome: " + novoCliente.Nome);
             Console.Write(" | Data de Nascimento: " + novoCliente.GetDataNascimento());
+
+            //novoCliente.Nascimento = new DateTime(2020, 5, 31);
         }
     }
 }
