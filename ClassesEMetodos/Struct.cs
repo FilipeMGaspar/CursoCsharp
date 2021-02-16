@@ -36,7 +36,10 @@ namespace CursoCsharp.ClassesEMetodos {
             var coordenadaFinal = new Coordenada(x: 9, y: 1);
             coordenadaFinal.MoverNaDiagonal(10);
 
+            Console.WriteLine();
             Console.WriteLine("Coordenada Final:");
+            Console.WriteLine("X = {0}", coordenadaFinal.X);
+            Console.WriteLine("Y = {0}", coordenadaFinal.Y);
 
         }
     }
