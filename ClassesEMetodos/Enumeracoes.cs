@@ -15,6 +15,10 @@ namespace CursoCsharp.ClassesEMetodos {
         public static void Executar() {
             int id = (int)Genero.Animacao;
             Console.WriteLine(id);
+
+            var filmeParaFamilia = new Filme();
+            filmeParaFamilia.Titulo = "Poeira em Alto Mar";
+            filmeParaFamilia.GeneneroDoFilme = Genero.Comedia;
         }
     }
 }
