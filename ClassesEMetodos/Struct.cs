@@ -23,7 +23,7 @@ namespace CursoCsharp.ClassesEMetodos {
         }
     } 
 
-    class Struct {
+    class ExemploStruct {//
         public static void Executar() {
 
         }
