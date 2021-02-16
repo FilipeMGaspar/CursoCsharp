@@ -19,6 +19,7 @@ namespace CursoCsharp.ClassesEMetodos {
             var filmeParaFamilia = new Filme();
             filmeParaFamilia.Titulo = "Poeira em Alto Mar";
             filmeParaFamilia.GeneneroDoFilme = Genero.Comedia;
+            Console.WriteLine("O filme {0} é de {1}", filmeParaFamilia.Titulo, filmeParaFamilia.GeneneroDoFilme);
         }
     }
 }
