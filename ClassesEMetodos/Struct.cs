@@ -25,7 +25,12 @@ namespace CursoCsharp.ClassesEMetodos {
 
     class ExemploStruct {//
         public static void Executar() {
+            Coordenada coordenadaInicial;
+            coordenadaInicial.X = 2;
+            coordenadaInicial.Y = 2;
 
+            Console.WriteLine("X = {0}", coordenadaInicial.X);
+            Console.WriteLine("Y = {0}", coordenadaInicial.Y);
         }
     }
 }
