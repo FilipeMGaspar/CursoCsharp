@@ -54,9 +54,11 @@ namespace CursoCsharp.ClassesEMetodos {
             Console.Write(" | Preço: " + op1.Preco);
 
             Console.WriteLine();
+            Console.WriteLine();
             Console.Write(op2.Nome);
             Console.Write(" | Preço: "+ op2.Preco);
             Console.Write(" | Preço com Desconto: " + op2.PrecoComDesconto);
+            Console.WriteLine();
         }
     }
 }
