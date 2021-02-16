@@ -42,18 +42,19 @@ namespace CursoCsharp
 
 
                 //Seção 5: Classes & Métodos
-                {"Membros, Atributos e Métodos -  Classes & Métodos ", Membros.Executar},
-                {"Construtores, Atributos e Métodos -  Classes & Métodos ", Construtores.Executar},
-                {"Métodos Com Retorno 01 -  Classes & Métodos ", MetodosComRetorno01.Executar},
-                {"Métodos Com Retorno 02 -  Classes & Métodos ", MetodosComRetorno02.Executar},
-                {"Métodos Estáticos -  Classes & Métodos ", MetodosEstaticos.Executar},
-                {"Atributos Estáticos -  Classes & Métodos ", AtributosEstaticos.Executar},
-                {"Desafio Acessar Atributo -  Classes & Métodos ", Desafio_Acessar_Atributo.Executar},
-                {"Parâmetros Variáveis -  Classes & Métodos ", ParametrosVariaveis.Executar},
-                {"Parâmetros Nomeados -  Classes & Métodos ", ParametrosNomeados.Executar},
-                {"Getters & Setters -  Classes & Métodos ", Getters_e_Setters.Executar},
-                {"Propriedades  -  Classes & Métodos ", Propriedades.Executar},
-                {"Atributos Readonly  -  Classes & Métodos ", AtributosReadonly.Executar},
+                {"Membros, Atributos e Métodos - Classes & Métodos ", Membros.Executar},
+                {"Construtores, Atributos e Métodos - Classes & Métodos ", Construtores.Executar},
+                {"Métodos Com Retorno 01 - Classes & Métodos ", MetodosComRetorno01.Executar},
+                {"Métodos Com Retorno 02 - Classes & Métodos ", MetodosComRetorno02.Executar},
+                {"Métodos Estáticos - Classes & Métodos ", MetodosEstaticos.Executar},
+                {"Atributos Estáticos - Classes & Métodos ", AtributosEstaticos.Executar},
+                {"Desafio Acessar Atributo - Classes & Métodos ", Desafio_Acessar_Atributo.Executar},
+                {"Parâmetros Variáveis - Classes & Métodos ", ParametrosVariaveis.Executar},
+                {"Parâmetros Nomeados - Classes & Métodos ", ParametrosNomeados.Executar},
+                {"Getters & Setters - Classes & Métodos ", Getters_e_Setters.Executar},
+                {"Propriedades - Classes & Métodos ", Propriedades.Executar},
+                {"Atributos Readonly -  Classes & Métodos ", AtributosReadonly.Executar},
+                {"Enumerações (Enum) -  Classes & Métodos ", Enumeracoes.Executar},
             });
 
             central.SelecionarEExecutar();
