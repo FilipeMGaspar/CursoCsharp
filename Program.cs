@@ -53,8 +53,9 @@ namespace CursoCsharp
                 {"Parâmetros Nomeados - Classes & Métodos ", ParametrosNomeados.Executar},
                 {"Getters & Setters - Classes & Métodos ", Getters_e_Setters.Executar},
                 {"Propriedades - Classes & Métodos ", Propriedades.Executar},
-                {"Atributos Readonly -  Classes & Métodos ", AtributosReadonly.Executar},
-                {"Enumerações (Enum) -  Classes & Métodos ", Enumeracoes.Executar},
+                {"Atributos Readonly - Classes & Métodos ", AtributosReadonly.Executar},
+                {"Enumerações (Enum) - Classes & Métodos ", Enumeracoes.Executar},
+                {"Struct - Classes & Métodos ", Struct.Executar},
             });
 
             central.SelecionarEExecutar();
