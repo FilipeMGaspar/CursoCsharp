@@ -22,10 +22,11 @@ namespace CursoCsharp.ClassesEMetodos {
 
         //somente leitura
         public double PrecoComDesconto {
-            get => Preco - (desconto * Preco);
+            get => Preco - (desconto * Preco); //Notação lambda
+            //get {
+            //    return Preco - (desconto * Preco);
+            //}
         }
-
-
     }
 
     class Propriedades {
