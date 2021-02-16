@@ -40,7 +40,8 @@ namespace CursoCsharp.ClassesEMetodos {
 
     class Propriedades {
         public static void Executar() {
-
+            var op1 = new CarroOpcional("Ar condicionadao",11959.89);
+            Console.WriteLine(op1.PrecoComDesconto);
         }
     }
 }
