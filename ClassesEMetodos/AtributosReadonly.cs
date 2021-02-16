@@ -6,15 +6,15 @@ namespace CursoCsharp.ClassesEMetodos {
 
     public class Cliente {
         public string Nome;
-        DateTime Nascimente; //Private DateTime Nascimente;
+        DateTime Nascimento; //Private DateTime Nascimente;
 
         public Cliente(string nome, DateTime nascimento) {
             Nome = nome;
-            Nascimente = nascimento;
+            Nascimento = nascimento;
         }
 
         public string GetDataNascimento() {
-            return String.Format();
+            return String.Format("{0}/{1}/{2}", Nascimento.Day, Nascimento.Month, Nascimento.Year);
         }
     }
 
