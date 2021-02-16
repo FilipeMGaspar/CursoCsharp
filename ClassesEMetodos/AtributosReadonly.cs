@@ -10,7 +10,11 @@ namespace CursoCsharp.ClassesEMetodos {
 
         public Cliente(string nome, DateTime nascimento) {
             Nome = nome;
+            Nascimente = nascimento;
+        }
 
+        public string GetDataNascimento() {
+            return String.Format();
         }
     }
 
