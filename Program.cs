@@ -52,6 +52,7 @@ namespace CursoCsharp
                 {"Parâmetros Variáveis -  Classes & Métodos ", ParametrosVariaveis.Executar},
                 {"Parâmetros Nomeados -  Classes & Métodos ", ParametrosNomeados.Executar},
                 {"Getters & Setters -  Classes & Métodos ", Getters_e_Setters.Executar},
+                {"Propriedades  -  Classes & Métodos ", Propriedades.Executar},
             });
 
             central.SelecionarEExecutar();
