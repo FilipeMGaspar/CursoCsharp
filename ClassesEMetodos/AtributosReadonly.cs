@@ -18,9 +18,12 @@ namespace CursoCsharp.ClassesEMetodos {
         }
     }
 
+
     class AtributosReadonly {
         public static void Executar() {
+            var novoCliente = new Cliente("Ana Silva", new DateTime(1987, 2, 22));
 
+            Console.WriteLine();
         }
     }
 }
