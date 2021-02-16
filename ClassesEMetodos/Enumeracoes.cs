@@ -13,7 +13,8 @@ namespace CursoCsharp.ClassesEMetodos {
 
     class Enumeracoes {
         public static void Executar() {
-
+            int id = (int)Genero.Animacao;
+            Console.WriteLine(id);
         }
     }
 }
