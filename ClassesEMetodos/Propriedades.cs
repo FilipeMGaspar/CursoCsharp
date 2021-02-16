@@ -22,8 +22,10 @@ namespace CursoCsharp.ClassesEMetodos {
 
         //somente leitura
         public double PrecoComDesconto {
-
+            get => Preco - (desconto * Preco);
         }
+
+
     }
 
     class Propriedades {
