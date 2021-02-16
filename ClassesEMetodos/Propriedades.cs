@@ -41,7 +41,17 @@ namespace CursoCsharp.ClassesEMetodos {
     class Propriedades {
         public static void Executar() {
             var op1 = new CarroOpcional("Ar condicionadao", 3499.9);
-            Console.WriteLine(op1.PrecoComDesconto);
+            Console.WriteLine("Preço com Desconto :" + op1.PrecoComDesconto);
+
+            //op1.PrecoComDesconto = 3000; //Impossivel de realizar pois o Método é só de leitura 
+
+            var op2 = new CarroOpcional();
+            op2.Nome = "Direção elética";
+            op2.Preco = 2349.89;
+
+            //Console.Writeline(op1.Nome);
+            Console.Write(op1.Nome);
+            Console.Write(" | Preço: " + op1.Preco);
         }
     }
 }
