@@ -24,7 +24,7 @@ namespace CursoCsharp.ClassesEMetodos {
             var novoCliente = new Cliente("Ana Silva", new DateTime(1987, 2, 22));
 
             Console.Write("Nome: " + novoCliente.Nome);
-            Console.Write(" | Data: " + novoCliente.GetDataNascimento());
+            Console.Write(" | Data de Nascimento: " + novoCliente.GetDataNascimento());
         }
     }
 }
