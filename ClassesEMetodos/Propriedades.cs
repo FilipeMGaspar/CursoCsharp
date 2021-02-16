@@ -8,7 +8,15 @@ namespace CursoCsharp.ClassesEMetodos {
         double desconto = 0.1; //variavél privada -> private double desconto = 0.1;
         string nome;//variavél privada -> private string nome;
 
-        public string Nome;
+        public string Nome {
+            get {
+                return "Opcional: " + nome;
+            }
+            set {
+                nome = value;
+            }
+        }
+
     }
 
     class Propriedades {
