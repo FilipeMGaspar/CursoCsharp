@@ -16,6 +16,11 @@ namespace CursoCsharp.ClassesEMetodos {
             X = x;
             Y = y;
         }
+
+        public void MoverNaDiagonal(int delta) {
+            X += delta;
+            Y += delta;
+        }
     } 
 
     class Struct {
