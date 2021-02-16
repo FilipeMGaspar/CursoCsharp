@@ -17,6 +17,13 @@ namespace CursoCsharp.ClassesEMetodos {
             }
         }
 
+        // Propriadade autoimplementada
+        public double Preco { get; set;}
+
+        //somente leitura
+        public double PrecoComDesconto {
+
+        }
     }
 
     class Propriedades {
