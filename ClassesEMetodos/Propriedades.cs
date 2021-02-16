@@ -18,15 +18,24 @@ namespace CursoCsharp.ClassesEMetodos {
         }
 
         // Propriadade autoimplementada
-        public double Preco { get; set;}
+        public double Preco { get; set; }
 
-        //somente leitura
+        //propriedade somente leitura
         public double PrecoComDesconto {
             get => Preco - (desconto * Preco); //Notação lambda
             //get {
             //    return Preco - (desconto * Preco);
             //}
         }
+
+        public CarroOpcional() {
+
+        }
+
+        public CarroOpcional(string nome, double preco) {
+            Nome = nome;
+            Preco = preco;
+}
     }
 
     class Propriedades {
