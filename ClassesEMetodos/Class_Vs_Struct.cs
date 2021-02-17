@@ -27,7 +27,7 @@ namespace CursoCsharp.ClassesEMetodos {
             CPonto copiaPonto2 = ponto2;
             ponto2.X = 4;
 
-            Console.WriteLine("Ponto 2 X:{0}",ponto2.X);
+            Console.WriteLine("Ponto 2 X:{0}", ponto2.X);
             Console.WriteLine("Copia do ponto 2 C:{0}",copiaPonto2.X);
         }
     }
