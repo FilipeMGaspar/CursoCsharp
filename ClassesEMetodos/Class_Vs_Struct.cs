@@ -10,9 +10,13 @@ namespace CursoCsharp.ClassesEMetodos {
             public int Y;
         }
 
-        
+        public struct CPonto {
+            public int X;
+            public int Y;
+        }
 
         public static void Executar() {
+            SPonto ponto1 = new SPonto { X = 1, Y = 3 };
 
         }
     }
