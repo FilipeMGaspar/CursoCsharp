@@ -7,7 +7,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
         public class Dependente {
             public string Nome;
-            public int idade;
+            public int Idade;
         }
 
         public static void Executar() {
@@ -17,6 +17,13 @@ namespace CursoCsharp.ClassesEMetodos {
 
             numero++;
             Console.WriteLine($"{numero} {copiaNumero}");
+
+            Dependente dep = new Dependente {
+                Nome = "Beto",
+                Idade = 20
+            };
+
+            Dependente copiaDep = dep;
         }
     }
 }
