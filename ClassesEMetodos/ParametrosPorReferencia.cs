@@ -23,6 +23,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
             //int b = 2;
             AlterarOut(out int b, out int c);//Método unidirecional
+            Console.WriteLine("Utilizando o Out");
             Console.WriteLine($"{b} {c}");
         }
     }
