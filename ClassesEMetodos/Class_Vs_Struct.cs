@@ -24,11 +24,11 @@ namespace CursoCsharp.ClassesEMetodos {
             Console.WriteLine("Copia Ponto 1 X:{0}",copiaPonto1.X);
 
             CPonto ponto2 = new CPonto { X = 2, Y = 4 };
-            CPonto copiaPonto2 = ponto2;
-            ponto2.X = 4;
+            CPonto copiaPonto2 = ponto2; // Atribuição POR REFERENCIA
+            ponto2.X = 5;
 
             Console.WriteLine("Ponto 2 X:{0}", ponto2.X);
-            Console.WriteLine("Copia do ponto 2 C:{0}",copiaPonto2.X);
+            Console.WriteLine("Copia do ponto 2 X:{0}", copiaPonto2.X);
         }
     }
 }
