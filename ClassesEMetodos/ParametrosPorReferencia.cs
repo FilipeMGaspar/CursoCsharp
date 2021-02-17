@@ -14,7 +14,13 @@ namespace CursoCsharp.ClassesEMetodos {
         }
 
         public static void Executar() {
+            int a = 3;
+            AlterarRef(a);
+            Console.WriteLine(a);
 
+            int b = 2;
+            AlterarOut(b);
+            Console.WriteLine(b);
         }
     }
 }
