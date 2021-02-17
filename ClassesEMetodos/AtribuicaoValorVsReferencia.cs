@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.ClassesEMetodos {
     class AtribuicaoValorVsReferencia {
 
-        public class Dependente {
+        public struct Dependente {
             public string Nome;
             public int Idade;
         }
