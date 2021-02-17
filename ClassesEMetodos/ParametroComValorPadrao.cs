@@ -10,6 +10,7 @@ namespace CursoCsharp.ClassesEMetodos {
         }
 
         public static void Executar() {
+            Console.WriteLine(Somar(10, 23));
 
         }
     }
