@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.ClassesEMetodos {
 
     class ParametrosPorReferencia {
-        public static void AlterarRef(int numero) {
+        public static void AlterarRef(ref int numero) {
             numero = numero + 1000; 
         }
 
@@ -15,7 +15,7 @@ namespace CursoCsharp.ClassesEMetodos {
 
         public static void Executar() {
             int a = 3;
-            AlterarRef(a);
+            AlterarRef(ref a);
             Console.WriteLine(a);
 
             int b = 2;
