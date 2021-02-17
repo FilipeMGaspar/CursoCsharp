@@ -21,7 +21,7 @@ namespace CursoCsharp.ClassesEMetodos {
             ponto1.X = 3;
 
             Console.WriteLine("Ponto 1 X:{0}", ponto1.X);
-            Console.WriteLine("Copia Ponto 1 X:{0}",);
+            Console.WriteLine("Copia Ponto 1 X:{0}",copiaPonto1.X);
         }
     }
 }
