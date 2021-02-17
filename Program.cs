@@ -58,6 +58,7 @@ namespace CursoCsharp
                 {"Struct - Classes & Métodos ", ExemploStruct.Executar},
                 {"Class vs Struct - Classes & Métodos ", Class_Vs_Struct.Executar},
                 {"Atribuição por Valor vs Referência - Classes & Métodos ", AtribuicaoValorVsReferencia.Executar},
+                {"Parâmetros por Referência (Ref/Out) - Classes & Métodos ", ParametrosPorReferencia.Executar},
             });
 
             central.SelecionarEExecutar();
