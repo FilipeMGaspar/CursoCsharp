@@ -9,9 +9,11 @@ namespace CursoCsharp.ClassesEMetodos {
             numero = numero + 1000; 
         }
 
-        public static void AlterarOut(out int numero) {
+        public static void AlterarOut(out int numero, out int numero2) {
             numero = 0;
+            numero2 = 0;
             numero = numero + 15;
+            numero2 = numero2 + 256;
         }
 
         public static void Executar() {
@@ -20,8 +22,8 @@ namespace CursoCsharp.ClassesEMetodos {
             Console.WriteLine(a);
 
             //int b = 2;
-            AlterarOut(out int b);
-            Console.WriteLine(b);
+            AlterarOut(out int b, out int c);//Método unidirecional
+            Console.WriteLine($"{b} {c}");
         }
     }
 }
