@@ -11,6 +11,9 @@ namespace CursoCsharp.ClassesEMetodos {
 
         public static void Executar() {
             Console.WriteLine(Somar(10, 23));
+            Console.WriteLine(Somar(50));
+            Console.WriteLine(Somar());
+            Console.WriteLine(Somar(b : 7));//passagem de parametro nomeado
 
         }
     }
