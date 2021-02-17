@@ -30,7 +30,7 @@ namespace CursoCsharp.ClassesEMetodos {
             dep.Idade = 21;
 
             Console.WriteLine($"{dep.Nome} {copiaDep.Nome}");
-            Console.WriteLine($"{dep.Idade} {copiaDep.Nome}");
+            Console.WriteLine($"{dep.Idade} {copiaDep.Idade}");
         }
     }
 }
