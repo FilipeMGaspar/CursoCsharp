@@ -24,6 +24,8 @@ namespace CursoCsharp.ClassesEMetodos {
             };
 
             Dependente copiaDep = dep;
+            Console.WriteLine($"{dep.Nome} {copiaDep.Nome}");
+            Console.WriteLine($"{dep.Idade} {copiaDep.Idade}");
         }
     }
 }
