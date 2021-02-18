@@ -40,7 +40,8 @@ namespace CursoCsharp.Colecoes {
             Console.WriteLine();
             Console.WriteLine(carrinho.Count);
             carrinho.Add(livro);
-            Console.WriteLine(carrinho.Count);
+            Console.WriteLine();
+            Console.WriteLine(carrinho.LastIndexOf(livro));
         }
     }
 }
