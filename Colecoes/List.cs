@@ -29,6 +29,13 @@ namespace CursoCsharp.Colecoes {
             };
             carrinho.AddRange(combo);
             Console.WriteLine(carrinho.Count);
+
+            carrinho.RemoveAt(3);
+            foreach (var item in carrinho) {
+                Console.WriteLine(carrinho.IndexOf(item));
+                Console.WriteLine($"{item.Nome} {item.Preco}");
+            }
+
         }
     }
 }
