@@ -26,6 +26,11 @@ namespace CursoCsharp.Colecoes {
 
             double media = somatorio / notas.Length;
             Console.WriteLine("Média: {0}", media);
+
+            char[] letras = { 'A', 'r', 'r', 'a', 'y' };
+            foreach (var letra in letras) {
+                Console.Write(letra);
+            }
         }
     }
 }
