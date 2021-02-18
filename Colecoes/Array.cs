@@ -30,7 +30,7 @@ namespace CursoCsharp.Colecoes {
             char[] letras = { 'A', 'r', 'r', 'a', 'y' };
             string palavra = new string(letras);
             Console.WriteLine(palavra);
-            
+            // ou //
             foreach (var letra in letras) {
                 Console.Write(letra);
             }
