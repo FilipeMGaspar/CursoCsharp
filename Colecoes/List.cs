@@ -16,7 +16,8 @@ namespace CursoCsharp.Colecoes {
 
     class List {
         public static void Executar() {
-            var livro = new Produto();
+            var livro = new Produto("Game of Throne", 22.9);
+
         }
     }
 }
