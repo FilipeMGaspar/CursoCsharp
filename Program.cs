@@ -60,6 +60,8 @@ namespace CursoCsharp
                 {"Atribuição por Valor vs Referência - Classes & Métodos ", AtribuicaoValorVsReferencia.Executar},
                 {"Parâmetros por Referência (Ref/Out) - Classes & Métodos ", ParametrosPorReferencia.Executar},
                 {"Parâmetro com Valor Padrão - Classes & Métodos ", ParametroComValorPadrao.Executar},
+
+                // Seção 6: Coleções
             });
 
             central.SelecionarEExecutar();
