@@ -24,7 +24,7 @@ namespace CursoCsharp.Colecoes {
                 somatorio += nota;
             }
 
-            double media = somatorio / notas.Length();
+            double media = somatorio / notas.Length;
             Console.WriteLine("Média: {0}", media);
         }
     }
