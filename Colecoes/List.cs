@@ -22,12 +22,13 @@ namespace CursoCsharp.Colecoes {
             carrinho.Add(livro);
 
             var combo = new List<Produto> {
-                new Produto("Camisa", 29.9);
-                new Produto("Jogo MotoGp", 35.99);
-                new Produto("Poster", 10);
-            }
+                new Produto("Camisa", 29.9),
+                new Produto("Jogo MotoGp", 35.99),
+                new Produto("Poster", 10)
+            };
 
-            
+            carrinho.AddRange(combo);
+            Console.WriteLine(carrinho.Count);
         }
     }
 }
