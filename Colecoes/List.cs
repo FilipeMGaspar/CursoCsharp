@@ -16,7 +16,7 @@ namespace CursoCsharp.Colecoes {
 
     class List {
         public static void Executar() {
-
+            var livro = new Produto();
         }
     }
 }
