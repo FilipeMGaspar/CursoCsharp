@@ -11,7 +11,7 @@ namespace CursoCsharp.Colecoes {
             alunos[2] = "Carlos";
             alunos[3] = "Daniela";
             alunos[4] = "Emanuel";
-            alunos[5] = "Emanuel";
+            //alunos[5] = "Emanuel"; // indicie fora do ambito
         }
     }
 }
