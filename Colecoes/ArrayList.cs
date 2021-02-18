@@ -14,7 +14,7 @@ namespace CursoCsharp.Colecoes {
             arraylist.Add(3.14);
 
             foreach (var item in arraylist) {
-                Console.WriteLine("{0} => {1}",);
+                Console.WriteLine("{0} => {1}",item, item.GetType());
             }
             Console.WriteLine();
         }       
