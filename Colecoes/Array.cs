@@ -28,9 +28,12 @@ namespace CursoCsharp.Colecoes {
             Console.WriteLine("Média: {0}", media);
 
             char[] letras = { 'A', 'r', 'r', 'a', 'y' };
+            string palavra = new string(letras);
+            Console.WriteLine(palavra);
             foreach (var letra in letras) {
                 Console.Write(letra);
             }
+
         }
     }
 }
