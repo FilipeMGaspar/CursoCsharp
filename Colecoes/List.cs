@@ -7,12 +7,13 @@ namespace CursoCsharp.Colecoes {
     public class Produto {
         public string Nome;
         public double Preco;
-    }
 
-    public Produto(string nome, double preco) {
-        Nome = nome;
-        preco = preco;
+        public Produto(string nome, double preco) {
+            Nome = nome;
+            Preco = preco;
+        }
     }
+   
 
     class List {
         public static void Executar() {
@@ -26,7 +27,6 @@ namespace CursoCsharp.Colecoes {
                 new Produto("Jogo MotoGp", 35.99),
                 new Produto("Poster", 10)
             };
-
             carrinho.AddRange(combo);
             Console.WriteLine(carrinho.Count);
         }
