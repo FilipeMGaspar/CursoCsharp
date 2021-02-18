@@ -36,6 +36,10 @@ namespace CursoCsharp.Colecoes {
                 Console.WriteLine(carrinho.IndexOf(item));
                 Console.WriteLine($"{item.Nome} {item.Preco}");
             }
+
+            Console.WriteLine(carrinho.Count);
+            carrinho.Add(livro);
+            Console.WriteLine(carrinho.Count);
         }
     }
 }
