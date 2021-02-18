@@ -65,7 +65,7 @@ namespace CursoCsharp
                 // Seção 6: Coleções
                 { "Array  - Coleções ", Colecoes.Array.Executar},
                 { "List  - Coleções ", Colecoes.List.Executar},
-                { "ArrayList   - Coleções ", ArrayList.Executar},
+                { "ArrayList   - Coleções ", ColecoesArrayList.Executar},
             });
             
 

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Text;
 
 namespace CursoCsharp.Colecoes {
-    class ArrayList {
+    class ColecoesArrayList {
         public static void Executar() {
             var arraylist = new ArrayList {
                 "Palavra",
