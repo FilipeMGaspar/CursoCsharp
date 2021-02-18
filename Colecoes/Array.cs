@@ -16,6 +16,11 @@ namespace CursoCsharp.Colecoes {
             foreach (var aluno in alunos) {
                 Console.WriteLine(aluno);
             }
+
+            double somatorio = 0;
+            double[] notas = { 3.7, 4.8, 8.4, 8.2, 6.8 };
+
+
         }
     }
 }
