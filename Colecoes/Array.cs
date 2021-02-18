@@ -12,6 +12,10 @@ namespace CursoCsharp.Colecoes {
             alunos[3] = "Daniela";
             alunos[4] = "Emanuel";
             //alunos[5] = "Emanuel"; // indicie fora do ambito
+
+            foreach (var aluno in alunos) {
+                Console.WriteLine(aluno);
+            }
         }
     }
 }
