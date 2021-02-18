@@ -10,10 +10,13 @@ namespace CursoCsharp.Colecoes {
                 3,
                 true
             };
-        }
 
-        arraylist.Add(3.14);
+            arraylist.Add(3.14);
 
-
+            foreach (var item in arraylist) {
+                Console.WriteLine("{0} => {1}",);
+            }
+            Console.WriteLine();
+        }       
     }
 }
