@@ -63,9 +63,9 @@ namespace CursoCsharp
                 {"Parâmetro com Valor Padrão - Classes & Métodos ", ParametroComValorPadrao.Executar},
 
                 // Seção 6: Coleções
-                { "Array  - Coleções ", Colecoes.Array.Executar},
-                { "List  - Coleções ", Colecoes.List.Executar},
-                { "ArrayList   - Coleções ", ColecoesArrayList.Executar},
+                { "Array - Coleções ", Colecoes.Array.Executar},
+                { "List - Coleções ", Colecoes.List.Executar},
+                { "ArrayList - Coleções ", ColecoesArrayList.Executar},
             });
             
 
