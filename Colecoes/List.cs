@@ -15,6 +15,8 @@ namespace CursoCsharp.Colecoes {
 
         public override bool Equals(object obj) {
             Produto outro = (Produto)obj;
+            bool mesmoNome = Nome == outro.Nome;
+            bool mesmoPreco = Preco == outro.Preco;
             return base.Equals(obj);
         }
     }
