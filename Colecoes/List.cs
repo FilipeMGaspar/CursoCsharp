@@ -13,13 +13,14 @@ namespace CursoCsharp.Colecoes {
             Preco = preco;
         }
 
+        // Implementado na aula 67
         public override bool Equals(object obj) {
             Produto outroProduto = (Produto)obj;
             bool mesmoNome = Nome == outroProduto.Nome;
             bool mesmoPreco = Preco == outroProduto.Preco;
             return base.Equals(obj);
         }
-
+        // Implementado na aula 67
         public override int GetHashCode() {
             return Nome.Length;
         }
