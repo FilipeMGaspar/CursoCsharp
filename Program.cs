@@ -69,6 +69,7 @@ namespace CursoCsharp
                 { "Set - Coleções ", Set.Executar},
                 { "Queue - Coleções ", QueueColecoes.Executar},
                 { "Igualdade (Equals e GetHashCode) - Coleções ", Igualdade.Executar},
+                { "Stack - Coleções ", Igualdade.Executar},
             });
             
 
