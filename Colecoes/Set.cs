@@ -13,6 +13,7 @@ namespace CursoCsharp.Colecoes {
             var combo = new HashSet<Produto> {
                 new Produto("Camisa", 29.9),
                 new Produto("Jogo MotoGp", 35.99),
+                new Produto("Poster", 10),
                 new Produto("Poster", 10)
             };
             carrinho.UnionWith(combo);
