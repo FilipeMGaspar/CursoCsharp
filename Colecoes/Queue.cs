@@ -27,6 +27,8 @@ namespace CursoCsharp.Colecoes {
             salada.Enqueue("Item");
             salada.Enqueue(true);
             salada.Enqueue(3.14);
+
+            Console.WriteLine(salada.Contains("item"));
         }
     }
 }
