@@ -19,9 +19,8 @@ namespace CursoCsharp.Colecoes {
             Console.WriteLine(carrinho.Count);
 
             Console.WriteLine();
-           // carrinho.RemoveAt(3);
-            foreach (var item in carrinho) {
-               // Console.WriteLine(carrinho.IndexOf(item));
+           
+            foreach (var item in carrinho) {               
                 Console.WriteLine($"{item.Nome} {item.Preco}");
             }
 
@@ -30,7 +29,6 @@ namespace CursoCsharp.Colecoes {
             carrinho.Add(livro);
             Console.WriteLine(carrinho.Count);
             Console.WriteLine();
-            //Console.WriteLine(carrinho.LastIndexOf(livro));
         }
     }
 }
