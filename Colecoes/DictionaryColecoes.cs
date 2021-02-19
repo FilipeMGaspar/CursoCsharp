@@ -23,6 +23,14 @@ namespace CursoCsharp.Colecoes {
 
             filmes.TryGetValue(2016, out string filme2006);
             Console.WriteLine($"Filme: {filme2006}");
+
+            foreach(var chave in filmes.Keys) {
+                Console.WriteLine(chave);
+            }
+
+            foreach (var valor in filmes.Values) {
+                Console.WriteLine(valor);
+            }
         }
     }
 }
