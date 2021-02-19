@@ -16,6 +16,8 @@ namespace CursoCsharp.Colecoes {
                 Console.WriteLine("2004: "+ filmes[2004]);
                 Console.WriteLine(filmes.GetValueOrDefault(2004));
             }
+
+            Console.WriteLine(filmes.ContainsValue("Amesésia"));
         }
     }
 }
