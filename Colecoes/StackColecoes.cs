@@ -1,10 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Text;
 
 namespace CursoCsharp.Colecoes {
     class StackColecoes {
         public static void Executar() {
+            var pilha = new Stack();
+
+            pilha.Push(3);
+            pilha.Push("a");
+            pilha.Push(true);
+            pilha.Push(3.14f);
+
 
         }
     }
