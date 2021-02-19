@@ -31,6 +31,10 @@ namespace CursoCsharp.Colecoes {
             foreach (var valor in filmes.Values) {
                 Console.WriteLine(valor);
             }
+
+            foreach (KeyValuePair<int, string> filme in filmes) {
+                Console.WriteLine($"{filme.Value} em {filme.Key}");
+            }
         }
     }
 }
