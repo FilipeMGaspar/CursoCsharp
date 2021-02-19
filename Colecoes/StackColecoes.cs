@@ -17,6 +17,10 @@ namespace CursoCsharp.Colecoes {
             }
 
             Console.WriteLine($"\nPop: {pilha.Pop()}");
+
+            foreach (var item in pilha) {
+                Console.WriteLine(item);
+            }
         }
     }
 }
