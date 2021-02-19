@@ -16,6 +16,12 @@ namespace CursoCsharp.Colecoes {
 
             Console.WriteLine(fila.Dequeue());
             Console.WriteLine(fila.Count);
+
+            foreach (var pessoa in fila) {
+                Console.WriteLine(pessoa);
+            }
+
+
         }
     }
 }
