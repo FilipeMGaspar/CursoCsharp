@@ -7,10 +7,10 @@ namespace CursoCsharp.Colecoes {
         public static void Executar() {
             var livro = new Produto("Game of Throne", 22.9);
 
-            var carrinho = new List<Produto>();
+            var carrinho = new HashSet<Produto>();
             carrinho.Add(livro);
 
-            var combo = new List<Produto> {
+            var combo = new HashSet<Produto> {
                 new Produto("Camisa", 29.9),
                 new Produto("Jogo MotoGp", 35.99),
                 new Produto("Poster", 10)
