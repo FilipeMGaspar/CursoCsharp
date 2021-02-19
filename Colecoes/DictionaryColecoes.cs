@@ -18,6 +18,10 @@ namespace CursoCsharp.Colecoes {
             }
 
             Console.WriteLine(filmes.ContainsValue("Amesésia"));
+
+            Console.WriteLine($"Removeu: {filmes.Remove(2004)}");
+
+
         }
     }
 }
