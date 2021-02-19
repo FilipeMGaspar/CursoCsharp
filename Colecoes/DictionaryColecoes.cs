@@ -11,6 +11,10 @@ namespace CursoCsharp.Colecoes {
             filmes.Add(2002, "Homem-Aranha");
             filmes.Add(2004, "Os Incríveis");
             filmes.Add(2006, "O Grande Truque");
+
+            if (filmes.ContainsKey(2004)) {
+                Console.WriteLine("2004: "+ filmes[2004]);
+            }
         }
     }
 }
