@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCsharp.Colecoes {
-    class Queue {
+    class QueueColecoes {
         public static void Executar() {
             var fila = new Queue<string>();
 
