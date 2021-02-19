@@ -12,7 +12,9 @@ namespace CursoCsharp.Colecoes {
             pilha.Push(true);
             pilha.Push(3.14f);
 
-
+            foreach (var item in pilha) {
+                Console.WriteLine(item);
+            }
         }
     }
 }
