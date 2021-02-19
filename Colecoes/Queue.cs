@@ -11,7 +11,8 @@ namespace CursoCsharp.Colecoes {
             fila.Enqueue("Sicrano");
             fila.Enqueue("Beltrano");
 
-
+            Console.WriteLine(fila.Peek());
+            Console.WriteLine(fila.Count);
         }
     }
 }
