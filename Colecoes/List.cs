@@ -19,6 +19,10 @@ namespace CursoCsharp.Colecoes {
             bool mesmoPreco = Preco == outroProduto.Preco;
             return base.Equals(obj);
         }
+
+        public override int GetHashCode() {
+            return Nome.Length;
+        }
     }
    
 
