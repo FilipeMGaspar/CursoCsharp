@@ -12,6 +12,11 @@ namespace CursoCsharp.Colecoes {
             Nome = nome;
             Preco = preco;
         }
+
+        public override bool Equals(object obj) {
+            Produto outro = (Produto)obj;
+            return base.Equals(obj);
+        }
     }
    
 
