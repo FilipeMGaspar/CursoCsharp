@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.Colecoes {
     class Igualdade {
         public static void Executar() {
-            // Produto contem string nome e double preco
+            // Produto contem string nome e double preco vem do ficheiro List.Cs
 
             var p1 = new Produto("Caneta", 1.89);
             var p2 = new Produto("Caneta", 1.89);
