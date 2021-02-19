@@ -15,21 +15,22 @@ namespace CursoCsharp.Colecoes {
                 new Produto("Jogo MotoGp", 35.99),
                 new Produto("Poster", 10)
             };
-            carrinho.AddRange(combo);
+            carrinho.UnionWith(combo);
             Console.WriteLine(carrinho.Count);
 
             Console.WriteLine();
-            carrinho.RemoveAt(3);
+           // carrinho.RemoveAt(3);
             foreach (var item in carrinho) {
-                Console.WriteLine(carrinho.IndexOf(item));
+               // Console.WriteLine(carrinho.IndexOf(item));
                 Console.WriteLine($"{item.Nome} {item.Preco}");
             }
 
             Console.WriteLine();
             Console.WriteLine(carrinho.Count);
             carrinho.Add(livro);
+            Console.WriteLine(carrinho.Count);
             Console.WriteLine();
-            Console.WriteLine(carrinho.LastIndexOf(livro));
+            //Console.WriteLine(carrinho.LastIndexOf(livro));
         }
     }
 }
