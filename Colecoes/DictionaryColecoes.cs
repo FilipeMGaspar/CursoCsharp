@@ -14,6 +14,7 @@ namespace CursoCsharp.Colecoes {
 
             if (filmes.ContainsKey(2004)) {
                 Console.WriteLine("2004: "+ filmes[2004]);
+                Console.WriteLine(filmes.GetValueOrDefault(2004));
             }
         }
     }
