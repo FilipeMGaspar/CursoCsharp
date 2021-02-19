@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,7 +22,11 @@ namespace CursoCsharp.Colecoes {
                 Console.WriteLine(pessoa);
             }
 
-
+            var salada = new Queue();//fila
+            salada.Enqueue(2);
+            salada.Enqueue("Item");
+            salada.Enqueue(true);
+            salada.Enqueue(3.14);
         }
     }
 }
