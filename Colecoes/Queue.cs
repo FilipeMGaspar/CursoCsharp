@@ -11,7 +11,10 @@ namespace CursoCsharp.Colecoes {
             fila.Enqueue("Sicrano");
             fila.Enqueue("Beltrano");
 
-            Console.WriteLine(fila.Peek());
+            Console.WriteLine(fila.Peek());//Peek() é um método
+            Console.WriteLine(fila.Count);//cout é atributo
+
+            Console.WriteLine(fila.Dequeue());
             Console.WriteLine(fila.Count);
         }
     }
