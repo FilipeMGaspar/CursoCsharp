@@ -44,6 +44,10 @@ namespace CursoCsharp.OrientacaoObjectos {
             public Ferrari() : base(350) {
 
             }
+
+            public override int Acelerar() {
+                return AlterarVelocidade(15);
+            }
         }
     }
 
