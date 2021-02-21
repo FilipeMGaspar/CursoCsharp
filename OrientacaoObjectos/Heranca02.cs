@@ -48,6 +48,11 @@ namespace CursoCsharp.OrientacaoObjectos {
             public override int Acelerar() {
                 return AlterarVelocidade(15);
             }
+
+            //Olcuta o método da class pai
+            public new int Travar() {
+                return AlterarVelocidade(-15);
+            }
         }
     }
 
