@@ -8,6 +8,8 @@ namespace CursoCsharp.OrientacaoObjectos {
         protected readonly int VelocidadeMaxima;//Vai ser passado por herança
         private int VelocidadeAtual;
 
+        public Carro(){ }//Construtor padrão
+
         public Carro(int velocidadeMaxima) {
             VelocidadeMaxima = velocidadeMaxima;
         }
