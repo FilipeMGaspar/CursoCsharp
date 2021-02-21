@@ -40,7 +40,11 @@ namespace CursoCsharp.OrientacaoObjectos {
             }
         }
 
+        public class Ferrari : Carros {
+            public Ferrari() : base(350) {
 
+            }
+        }
     }
 
     class Heranca02 {
