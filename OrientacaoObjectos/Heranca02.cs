@@ -26,7 +26,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             return VelocidadeAtual;
         }
 
-        public int Acelerar() {
+        public virtual int Acelerar() {
             return AlterarVelocidade(5);
         }
 
