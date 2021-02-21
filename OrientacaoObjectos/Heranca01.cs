@@ -8,7 +8,7 @@ namespace CursoCsharp.OrientacaoObjectos {
         protected readonly int VelocidadeMaxima;//Vai ser passado por herança
         private int VelocidadeAtual;
 
-        public Carro(){ }//Construtor padrão
+        //public Carro(){ }//Construtor padrão
 
         public Carro(int velocidadeMaxima) {
             VelocidadeMaxima = velocidadeMaxima;
@@ -34,12 +34,21 @@ namespace CursoCsharp.OrientacaoObjectos {
         public int Travar() {
             return AlterarVelocidade(-5);
         }
+
+        public class Uno : Carro {
+            public Uno() : base(200){ 
+                
+            }
+        }
+
     }
 
 
     class Heranca01 {
         public static void Executar() {
-
+            Console.WriteLine("Uno.. ");
+            Uno carro1 = new Uno();
+            Console.WriteLine();
         }
     }
 }
