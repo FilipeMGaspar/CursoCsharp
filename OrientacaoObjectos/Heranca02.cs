@@ -74,6 +74,24 @@ namespace CursoCsharp.OrientacaoObjectos {
             Console.WriteLine(carro2.Travar());
             Console.WriteLine(carro2.Travar());
             Console.WriteLine(carro2.Travar());
+
+            Console.WriteLine();
+            Console.WriteLine("Ferrari com tipo carros... ");
+            Carros carro3 = new Carros.Ferrari();//polimorfismo
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Travar());
+            Console.WriteLine(carro3.Travar());
+            Console.WriteLine(carro3.Travar());
+
+            Console.WriteLine();
+            Console.WriteLine("Uno com tipo carros... ");
+            carro3 = new Carros.Uno();//polimorfismo
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Travar());
+            Console.WriteLine(carro3.Travar());
+            Console.WriteLine(carro3.Travar());
         }
     }
 }

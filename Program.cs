@@ -74,8 +74,9 @@ namespace CursoCsharp
                 { "Dictionary - Coleções ", DictionaryColecoes.Executar},
 
                 //Seção 7 - Orientação a Objetos
-                { "Herança #01 -  Orientação a Objetos ", Heranca01.Executar},
-                { "Herança #02 -  Orientação a Objetos ", Heranca02.Executar},
+                { "Herança #01 - Orientação a Objetos ", Heranca01.Executar},
+                { "Herança #02 - Orientação a Objetos ", Heranca02.Executar},
+                { "Usando This - Orientação a Objetos ", UsandoThis.Executar},
             });
             
 
