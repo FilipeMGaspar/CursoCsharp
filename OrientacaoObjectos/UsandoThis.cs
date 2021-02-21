@@ -8,7 +8,7 @@ namespace CursoCsharp.OrientacaoObjectos {
         public string Nome { get; set; }
 
         public Animal(string nome) {
-            Nome = Nome;
+            Nome = nome;
         }
     }
 
