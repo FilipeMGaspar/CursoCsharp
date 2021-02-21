@@ -54,11 +54,6 @@ namespace CursoCsharp.OrientacaoObjectos {
 
             Console.WriteLine(carro1.Travar());
             Console.WriteLine(carro1.Travar());
-            /*
-            // Uno Carro1 = new Uno();
-            //var carro1 = new Uno();
-            */
-
         }
     }
 }
