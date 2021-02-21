@@ -22,7 +22,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             } else {
                 VelocidadeAtual = novaVelocidade;
             }
-
+            return VelocidadeAtual;
         }
     }
 
