@@ -5,6 +5,7 @@ using CursoCsharp.Fundamentos;
 using CursoCsharp.EstruturasDeControlo;
 using CursoCsharp.ClassesEMetodos;
 using CursoCsharp.Colecoes;
+using CursoCsharp.OrientacaoObjectos;
 
 namespace CursoCsharp
 {
@@ -71,6 +72,9 @@ namespace CursoCsharp
                 { "Igualdade (Equals e GetHashCode) - Coleções ", Igualdade.Executar},
                 { "Stack - Coleções ", StackColecoes.Executar},
                 { "Dictionary - Coleções ", DictionaryColecoes.Executar},
+
+                //Seção 7 - Orientação a Objetos
+                { "Herança #01 -  Orientação a Objetos ", Heranca01.Executar},
             });
             
 
