@@ -39,6 +39,11 @@ namespace CursoCsharp.OrientacaoObjectos {
             }
         }
 
+        public class Ferrari : Carro {
+            public Ferrari() : base(350) {
+
+            }
+        }
     }
 
 
@@ -54,6 +59,10 @@ namespace CursoCsharp.OrientacaoObjectos {
             Console.WriteLine(carro1.Travar());
             Console.WriteLine(carro1.Travar());
             Console.WriteLine(carro1.Travar());
+
+            Console.WriteLine("Ferrari...");
+            Carro.Ferrari carro2 = new Carro.Ferrari();
+
         }
     }
 }
