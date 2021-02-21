@@ -30,7 +30,12 @@ namespace CursoCsharp.OrientacaoObjectos {
 
     class UsandoThis {
         public static void Executar() {
+            var spike = new Cachorro("Spike");
+            var boby = new Cachorro("Boby", 35.12);
 
+            Console.WriteLine(spike);
+            Console.WriteLine();
+            Console.WriteLine(boby);
         }
     }
 }
