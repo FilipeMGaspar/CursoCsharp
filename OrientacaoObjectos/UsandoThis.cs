@@ -18,6 +18,10 @@ namespace CursoCsharp.OrientacaoObjectos {
         public Cachorro(string nome) : base(nome) {
             Console.WriteLine($"Cachorro: ..: {nome} :.. incluido");
         }
+
+        public Cachorro(string nome, double altura) : this(nome) {
+            Altura = altura;
+        }
     }
 
     class UsandoThis {
