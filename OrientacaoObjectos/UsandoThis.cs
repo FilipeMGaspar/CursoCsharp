@@ -12,7 +12,8 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
-    
+    public class Cachorro : Animal {
+        public double Altura { get; set; }
 
     class UsandoThis {
         public static void Executar() {
