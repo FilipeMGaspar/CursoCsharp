@@ -22,6 +22,10 @@ namespace CursoCsharp.OrientacaoObjectos {
         public Cachorro(string nome, double altura) : this(nome) {
             Altura = altura;
         }
+
+        public override string ToString() {
+            return $"{Nome} tem {Altura}cm de altura";
+        }
     }
 
     class UsandoThis {
