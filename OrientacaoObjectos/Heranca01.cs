@@ -62,7 +62,12 @@ namespace CursoCsharp.OrientacaoObjectos {
 
             Console.WriteLine("Ferrari...");
             Carro.Ferrari carro2 = new Carro.Ferrari();
-
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            
+            Console.WriteLine(carro2.Travar());
+            Console.WriteLine(carro2.Travar());
+            Console.WriteLine(carro2.Travar());
         }
     }
 }
