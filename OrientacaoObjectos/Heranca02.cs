@@ -49,7 +49,22 @@ namespace CursoCsharp.OrientacaoObjectos {
 
     class Heranca02 {
         public static void Executar() {
+            Console.WriteLine("..: Uno :..");
+            Carros.Uno carro1 = new Carros.Uno();
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Travar());
+            Console.WriteLine(carro1.Travar());
+            Console.WriteLine(carro1.Travar());
 
+            Console.WriteLine();
+            Console.WriteLine(" *** ..: Ferrari :.. *** ");
+            Carros.Ferrari carro2 = new Carros.Ferrari();
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Travar());
+            Console.WriteLine(carro2.Travar());
+            Console.WriteLine(carro2.Travar());
         }
     }
 }
