@@ -34,6 +34,12 @@ namespace CursoCsharp.OrientacaoObjectos {
             return AlterarVelocidade(-5);
         }
 
+        public class Uno : Carros {
+            public Uno() : base(200) {
+
+            }
+        }
+
 
     }
 
