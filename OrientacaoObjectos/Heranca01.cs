@@ -48,7 +48,8 @@ namespace CursoCsharp.OrientacaoObjectos {
         public static void Executar() {
             Console.WriteLine("Uno.. ");
             Uno carro1 = new Uno();
-            Console.WriteLine();
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
         }
     }
 }
