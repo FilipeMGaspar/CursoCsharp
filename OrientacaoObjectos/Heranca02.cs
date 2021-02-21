@@ -19,10 +19,14 @@ namespace CursoCsharp.OrientacaoObjectos {
                 VelocidadeAtual = 0;
             }else if (novaVelocidade > VelocidadeMaxima) {
                 VelocidadeAtual = VelocidadeMaxima;
+            } else {
+                VelocidadeAtual = novaVelocidade;
             }
 
             return VelocidadeAtual;
         }
+
+
     }
 
     class Heranca02 {
