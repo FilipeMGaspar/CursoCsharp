@@ -13,7 +13,16 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
 
         protected int AlterarVelocidade(int delta) {//transmitido por herança
-            int novaVelocidade;//variavel interna do método
+            int novaVelocidade = VelocidadeAtual + delta; ;//variavel interna do método
+            if (novaVelocidade < 0) {
+                VelocidadeAtual = 0;
+            }else if (novaVelocidade > VelocidadeMaxima) {
+                VelocidadeAtual = VelocidadeMaxima;
+
+            } else {
+                VelocidadeAtual = novaVelocidade;
+            }
+
         }
     }
 
