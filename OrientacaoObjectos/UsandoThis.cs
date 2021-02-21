@@ -15,6 +15,11 @@ namespace CursoCsharp.OrientacaoObjectos {
     public class Cachorro : Animal {
         public double Altura { get; set; }
 
+        public Cachorro(string nome) : base(nome) {
+            Console.WriteLine($"Cachorro: ..: {nome} :.. incluido");
+        }
+    }
+
     class UsandoThis {
         public static void Executar() {
 
