@@ -22,5 +22,12 @@ namespace Encapsulamento {
 
         //private é o padrão
         bool UsaMuitoPhotoshop = true;
+
+        public void MeuAcessos() {
+            Console.WriteLine("..: SubCelebrida :..");
+
+            Console.WriteLine(InfoPublica);
+
+        }
     }
 }
