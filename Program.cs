@@ -77,7 +77,7 @@ namespace CursoCsharp
                 { "Herança #01 - Orientação a Objetos ", Heranca01.Executar},
                 { "Herança #02 - Orientação a Objetos ", Heranca02.Executar},
                 { "Usando This - Orientação a Objetos ", UsandoThis.Executar},
-                { "Encapsulamento  - Orientação a Objetos ", Encapsulamento.Executar},
+                { "Encapsulamento  - Orientação a Objetos ", OrientacaoObjectos.Encapsulamento.Executar},
             });
             
 
