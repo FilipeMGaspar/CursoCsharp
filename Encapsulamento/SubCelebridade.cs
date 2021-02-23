@@ -20,6 +20,7 @@ namespace Encapsulamento {
         //mesma class ou herança no mesmo projeto
         private protected string SegredoDeFamilia = "Bla bla!";
 
-
+        //private é o padrão
+        bool UsaMuitoPhotoshop = true;
     }
 }
