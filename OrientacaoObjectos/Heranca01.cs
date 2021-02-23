@@ -54,7 +54,7 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
-public class Ferrari : Carro {
+public class Ferrari() : Carro {
     public Ferrari() : base(350) {
     
     }
