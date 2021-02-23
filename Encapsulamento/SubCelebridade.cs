@@ -10,5 +10,10 @@ namespace Encapsulamento {
         // Herança , transmitido por herança
         protected string CorDoOlho = "Verde";
 
+        //Mesmo projecto (assembly)
+        internal ulong NumeroCelular = 5511999999999999;
+
+
+
     }
 }
