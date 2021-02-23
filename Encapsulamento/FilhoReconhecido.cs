@@ -4,5 +4,6 @@ using System.Text;
 
 namespace Encapsulamento {
     class FilhoReconhecido {
+
     }
 }
