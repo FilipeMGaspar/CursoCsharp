@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Encapsulamento {
-    class SubCelebridade {
+   public class SubCelebridade {
         //Todos acedem publico
         public string InfoPublica = "Tenho Instagram!";
 
