@@ -33,8 +33,9 @@ namespace CursoCsharp.OrientacaoObjectos {
             return AlterarVelocidade(-5);
         }
 
-        /*
-        public class Uno : Carro {
+        
+        /*Incorrecto com erro
+         * public class Uno : Carro {
             public Uno() : base(200){ 
             
             }
@@ -45,20 +46,22 @@ namespace CursoCsharp.OrientacaoObjectos {
 
             }
         }
+        * Com Erro, mal instanciada deveria estar fora da class carro
         */
+        
     }
 
-    public class Uno() : Carro {
-        public Uno() : base(200){
-        
+    public class Uno : Carro {
+        public Uno() : base(200) {
+
         }
     }
 
-public class Ferrari() : Carro {
-    public Ferrari() : base(350) {
-    
+    public class Ferrari : Carro {
+        public Ferrari() : base(350) {
+
+        }
     }
-}
 
     class Heranca01 {
         public static void Executar() {
