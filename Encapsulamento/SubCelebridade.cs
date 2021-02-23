@@ -31,6 +31,7 @@ namespace Encapsulamento {
             Console.WriteLine(NumeroCelular);
             Console.WriteLine(JeitoDeFalar);
             Console.WriteLine(SegredoDeFamilia);
+            Console.WriteLine(UsaMuitoPhotoshop);
         }
     }
 }
