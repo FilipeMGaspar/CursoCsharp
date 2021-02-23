@@ -33,6 +33,12 @@ namespace CursoCsharp.OrientacaoObjectos {
         public static void Executar() {
             SubCelebridade sub = new SubCelebridade();
             sub.MeuAcessos();
+
+            new FilhoReconhecido().MeuAcessos();
+            new AmigoProximo().MeusAcessos();
+
+            new FilhoNaoReconhecido().MeusAcessos();
+            new AmigoDistante().MeusAcessos();
         }
     }
 }
