@@ -17,7 +17,8 @@ namespace Encapsulamento {
         // herança ou no mesmo projecto
         protected internal string JeitoDeFalar = "uso muitas Girias";
 
-
+        //mesma class ou herança no mesmo projeto
+        private protected string SegredoDeFamilia = "Bla bla!";
 
 
     }
