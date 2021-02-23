@@ -14,6 +14,11 @@ namespace Encapsulamento {
         internal ulong NumeroCelular = 5511999999999999;
 
 
+        // herança ou no mesmo projecto
+        protected internal string JeitoDeFalar = "uso muitas Girias";
+
+
+
 
     }
 }
