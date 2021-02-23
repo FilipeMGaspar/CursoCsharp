@@ -33,6 +33,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             return AlterarVelocidade(-5);
         }
 
+        /*
         public class Uno : Carro {
             public Uno() : base(200){ 
             
@@ -44,14 +45,26 @@ namespace CursoCsharp.OrientacaoObjectos {
 
             }
         }
+        */
     }
 
+    public class Uno() : Carro {
+        public Uno() : base(200){
+        
+        }
+    }
+
+public class Ferrari : Carro {
+    public Ferrari() : base(350) {
+    
+    }
+}
 
     class Heranca01 {
         public static void Executar() {
             Console.WriteLine("Uno.. ");
-            //Uno carro1 = new Uno();
-            Carro.Uno carro1 = new Carro.Uno();
+            Uno carro1 = new Uno();
+            //Carro.Uno carro1 = new Carro.Uno();
 
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Acelerar());
@@ -62,8 +75,8 @@ namespace CursoCsharp.OrientacaoObjectos {
             Console.WriteLine(carro1.Travar());
 
             Console.WriteLine("Ferrari...");
-            //Ferrari carro2 = new Ferrari();
-            Carro.Ferrari carro2 = new Carro.Ferrari();
+            Ferrari carro2 = new Ferrari();
+            //Carro.Ferrari carro2 = new Carro.Ferrari();
             Console.WriteLine(carro2.Acelerar());
             Console.WriteLine(carro2.Acelerar());
             
