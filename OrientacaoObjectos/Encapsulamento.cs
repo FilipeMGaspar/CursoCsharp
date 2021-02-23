@@ -31,7 +31,8 @@ namespace CursoCsharp.OrientacaoObjectos {
     }
     class Encapsulamento {
         public static void Executar() {
-            
+            SubCelebridade sub = new SubCelebridade();
+            sub.MeuAcessos();
         }
     }
 }
