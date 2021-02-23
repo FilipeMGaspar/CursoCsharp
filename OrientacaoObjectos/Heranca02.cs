@@ -34,6 +34,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             return AlterarVelocidade(-5);
         }
 
+        
         public class Uno : Carros {
             public Uno() : base(200) {
 
@@ -44,6 +45,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             public Ferrari() : base(350) {
 
             }
+        
 
             public override int Acelerar() {
                 return AlterarVelocidade(15);
