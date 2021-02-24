@@ -27,7 +27,9 @@ namespace CursoCsharp.OrientacaoObjectos {
             Peso += arroz.Peso;
         }
 
-
+        public void Comer(Carne carne) {
+            Peso += carne.Peso;
+        }
     }
 
     class Polimorfismo {
