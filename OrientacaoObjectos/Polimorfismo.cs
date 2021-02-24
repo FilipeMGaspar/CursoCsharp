@@ -15,15 +15,15 @@ namespace CursoCsharp.OrientacaoObjectos {
     }
 
     public class Feijao : Comida {
-        public double Peso;
+        //public double Peso; Recibo por herança
     }
 
     public class Arroz : Comida {
-        public double Peso;
+        //public double Peso; Recibo por herança
     }
 
     public class Carne : Comida {
-        public double Peso;
+        //public double Peso; Recibo por herança
     }
 
     public class Pessoa {
