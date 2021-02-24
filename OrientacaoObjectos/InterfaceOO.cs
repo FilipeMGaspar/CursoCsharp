@@ -20,6 +20,12 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
+    class Multiplicacao : OperacaoBinaria {
+        public int Operacao(int a, int b) {
+            return a * b;
+        }
+    }
+
     class InterfaceOO {
         public static void Executar() {
 
