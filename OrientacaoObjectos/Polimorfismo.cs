@@ -8,6 +8,10 @@ namespace CursoCsharp.OrientacaoObjectos {
         public double Peso;
     }
 
+    public class Arroz {
+        public double Peso;
+    }
+
 
 
     class Polimorfismo {
