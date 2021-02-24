@@ -10,6 +10,16 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
+    //class SouFilho : SemFilho {
+
+    //}
+
+    class Avo {
+        public virtual bool HonrarNomeFamilia() {
+            return true;
+        }
+    }
+
     class Classe_Metodo_Sealed {
         public static void Executar() {
 
