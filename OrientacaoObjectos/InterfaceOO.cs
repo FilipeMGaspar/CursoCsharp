@@ -53,7 +53,8 @@ namespace CursoCsharp.OrientacaoObjectos {
 
     class InterfaceOO {
         public static void Executar() {
-
+            var calc = new Calculadora();
+            var resultado = calc.ExecutarOperacoes(20, 5);
         }
     }
 }
