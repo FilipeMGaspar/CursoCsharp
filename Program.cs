@@ -79,6 +79,7 @@ namespace CursoCsharp
                 { "Usando This - Orientação a Objetos ", UsandoThis.Executar},
                 //{ "Encapsulamento - Orientação a Objetos ", OrientacaoObjectos.Encapsulamento.Executar},
                 { "Polimorfismo - Orientação a Objetos ", Polimorfismo.Executar},
+                { "Classe Abstrata - Orientação a Objetos ", ClasseAbstrata.Executar},
             });
             
 
