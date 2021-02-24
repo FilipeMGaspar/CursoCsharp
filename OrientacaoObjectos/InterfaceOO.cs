@@ -4,21 +4,13 @@ using System.Text;
 
 namespace CursoCsharp.OrientacaoObjectos {
 
-    interface Teste {
-        bool Bla(string a);
-    }
-
     interface OperacaoBinaria {
         int Operacao(int a, int b);//Por defeito são publicos
     }
 
-    class Soma : OperacaoBinaria, Teste {
+    class Soma : OperacaoBinaria {
         public int Operacao(int a, int b) {
             return a + b;
-        }
-
-        public bool Bla(string teste) {
-            return true;
         }
     }
 
