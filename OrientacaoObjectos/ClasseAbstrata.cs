@@ -12,6 +12,14 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
+    public class Samsung : Celular {
+        public override string Assistente() {
+            return "Olá! O meu nome é Bixby!";
+        }
+    }
+
+
+
     class ClasseAbstrata {
         public static void Executar() {
             //Celular c = new Celular(); não se pode instanciar classes abestrata
