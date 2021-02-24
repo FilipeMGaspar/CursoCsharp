@@ -39,6 +39,14 @@ namespace CursoCsharp.OrientacaoObjectos {
             new Multiplicacao(),
             new Divisao()
         };
+
+        public static ExecutarOperacoes(int a, int b) {
+            string resultado = "";
+
+            foreach (var op in operacoes) {
+                resultado += $"Usando {op.GetType().Name} = {op.Operacao()}";
+            }
+        }
     }
 
     class InterfaceOO {
