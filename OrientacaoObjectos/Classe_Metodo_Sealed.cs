@@ -20,6 +20,12 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
+    class Pai : Avo {
+        public sealed override bool HonrarNomeFamilia() {
+            return true;
+        }
+    }
+
     class Classe_Metodo_Sealed {
         public static void Executar() {
 
