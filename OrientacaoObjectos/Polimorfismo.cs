@@ -12,7 +12,13 @@ namespace CursoCsharp.OrientacaoObjectos {
         public double Peso;
     }
 
+    public class Carne {
+        public double Peso;
+    }
 
+    public class Pessoa {
+
+    }
 
     class Polimorfismo {
         public static void Executar() {
