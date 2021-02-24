@@ -27,7 +27,14 @@ namespace CursoCsharp.OrientacaoObjectos {
     class ClasseAbstrata {
         public static void Executar() {
             //Celular c = new Celular(); não se pode instanciar classes abestrata
+            var celulares = new List<Celular> {
+                new IPhone(),
+                new Samsung()
+            };
 
+            foreach (var celular in celulares) {
+
+            }
         }
     }
 }
