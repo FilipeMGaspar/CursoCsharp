@@ -4,15 +4,25 @@ using System.Text;
 
 namespace CursoCsharp.OrientacaoObjectos {
 
-    public class Feijao {
+    public class Comida {
+        public double Peso;
+
+        public Comida(double peso) {
+            Peso = peso;
+        }
+
+        public Comida() { }//Construtor padrão
+    }
+
+    public class Feijao : Comida {
         public double Peso;
     }
 
-    public class Arroz {
+    public class Arroz : Comida {
         public double Peso;
     }
 
-    public class Carne {
+    public class Carne : Comida {
         public double Peso;
     }
 

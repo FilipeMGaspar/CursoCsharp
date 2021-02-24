@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using Encapsulamento;
 
 
@@ -42,3 +42,4 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 }
+*/
