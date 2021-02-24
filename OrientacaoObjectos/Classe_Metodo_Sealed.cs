@@ -27,9 +27,10 @@ namespace CursoCsharp.OrientacaoObjectos {
     }
 
     class FilhoRebelde : Pai {
-        public override bool HonrarNomeFamilia() {
-            return false;
-        }
+        //public override bool HonrarNomeFamilia() {
+         //   return false;
+        //}
+    }
 
     class Classe_Metodo_Sealed {
         public static void Executar() {
