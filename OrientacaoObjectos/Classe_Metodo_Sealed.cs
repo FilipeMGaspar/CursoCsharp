@@ -34,7 +34,11 @@ namespace CursoCsharp.OrientacaoObjectos {
 
     class Classe_Metodo_Sealed {
         public static void Executar() {
+            SemFilho semFilho = new SemFilho();
+            Console.WriteLine(semFilho.ValorDaFortuna());
 
+            FilhoRebelde filhoRebelde = new FilhoRebelde();
+            Console.WriteLine(filhoRebelde.HonrarNomeFamilia());
         }
     }
 }
