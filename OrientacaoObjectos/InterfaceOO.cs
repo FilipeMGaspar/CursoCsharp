@@ -32,6 +32,15 @@ namespace CursoCsharp.OrientacaoObjectos {
         }
     }
 
+    class Calculadora {
+        List<OperacaoBinaria> operacoes = new List<OperacaoBinaria> {
+            new Soma(),
+            new Subtracao(),
+            new Multiplicacao(),
+            new Divisao()
+        };
+    }
+
     class InterfaceOO {
         public static void Executar() {
 
