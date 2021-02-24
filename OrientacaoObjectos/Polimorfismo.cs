@@ -42,6 +42,14 @@ namespace CursoCsharp.OrientacaoObjectos {
 
             Carne ingrediente3 = new Carne();
             ingrediente3.Peso = 0.3;
+
+            Pessoa Cliente = new Pessoa();
+            Cliente.Peso = 80.2;
+            Cliente.Comer(ingrediente1);
+            Cliente.Comer(ingrediente2);
+            Cliente.Comer(ingrediente3);
+
+            Console.WriteLine($"Agora o peso do cliente é {Cliente.Peso}Kg");
         }
     }
 }
