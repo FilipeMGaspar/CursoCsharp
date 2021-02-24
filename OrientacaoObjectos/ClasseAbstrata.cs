@@ -33,7 +33,7 @@ namespace CursoCsharp.OrientacaoObjectos {
             };
 
             foreach (var celular in celulares) {
-
+                Console.WriteLine(celular.Assistente());
             }
         }
     }
