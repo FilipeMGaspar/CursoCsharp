@@ -29,7 +29,7 @@ namespace CursoCsharp.OrientacaoObjectos {
     public class Pessoa {
         public double Peso;
 
-        public void Comer(Feijao feijao) {
+        /*public void Comer(Feijao feijao) {
             Peso += feijao.Peso;
         }
 
@@ -39,6 +39,10 @@ namespace CursoCsharp.OrientacaoObjectos {
 
         public void Comer(Carne carne) {
             Peso += carne.Peso;
+        }*/
+
+        public void Comer(Comida comida) {
+            Peso += comida.Peso;
         }
     }
 
