@@ -40,7 +40,8 @@ namespace CursoCsharp.OrientacaoObjectos {
             Arroz ingrediente2 = new Arroz();
             ingrediente2.Peso = 0.25;
 
-
+            Carne ingrediente3 = new Carne();
+            ingrediente3.Peso = 0.3;
         }
     }
 }
