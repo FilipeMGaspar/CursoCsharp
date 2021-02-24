@@ -55,6 +55,8 @@ namespace CursoCsharp.OrientacaoObjectos {
         public static void Executar() {
             var calc = new Calculadora();
             var resultado = calc.ExecutarOperacoes(20, 5);
+
+            Console.WriteLine(resultado);
         }
     }
 }
