@@ -81,6 +81,7 @@ namespace CursoCsharp
                 { "Polimorfismo - Orientação a Objetos ", Polimorfismo.Executar},
                 { "Classe Abstrata - Orientação a Objetos ", ClasseAbstrata.Executar},
                 { "Interface - Orientação a Objetos ", InterfaceOO.Executar},
+                { "Classe e Método Sealed - Orientação a Objetos ", Classe_Metodo_Sealed.Executar},
             });
             
 
