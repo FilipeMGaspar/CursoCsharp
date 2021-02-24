@@ -34,6 +34,12 @@ namespace CursoCsharp.OrientacaoObjectos {
 
     class Polimorfismo {
         public static void Executar() {
+            Feijao ingrediente1 = new Feijao();
+            ingrediente1.Peso = 0.3;
+
+            Arroz ingrediente2 = new Arroz();
+            ingrediente2.Peso = 0.25;
+
 
         }
     }
