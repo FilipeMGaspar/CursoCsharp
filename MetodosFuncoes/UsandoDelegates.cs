@@ -5,7 +5,7 @@ using System.Text;
 namespace CursoCsharp.MetodosFuncoes {
     class UsandoDelegates {
         public static void Executar() {
-
+            
         } 
     }
 }
