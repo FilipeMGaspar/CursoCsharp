@@ -6,6 +6,7 @@ using CursoCsharp.EstruturasDeControlo;
 using CursoCsharp.ClassesEMetodos;
 using CursoCsharp.Colecoes;
 using CursoCsharp.OrientacaoObjectos;
+using CursoCsharp.MetodosFuncoes;
 
 namespace CursoCsharp
 {
@@ -82,6 +83,9 @@ namespace CursoCsharp
                 { "Classe Abstrata - Orientação a Objetos ", ClasseAbstrata.Executar},
                 { "Interface - Orientação a Objetos ", InterfaceOO.Executar},
                 { "Classe e Método Sealed - Orientação a Objetos ", Classe_Metodo_Sealed.Executar},
+
+                //Seção 8: Métodos & Funções
+                { "Classe e Método Sealed - Métodos & Funções ", ExemploLambda.Executar},
             });
             
 
