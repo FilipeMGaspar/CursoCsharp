@@ -10,6 +10,12 @@ namespace CursoCsharp.MetodosFuncoes {
             };
 
             algoNoConsole();
+
+            Func<int> jogarDado = () => {
+                Random random = new Random();
+                return random.Next(1, 7);
+            };
+
         }
     }
 }
