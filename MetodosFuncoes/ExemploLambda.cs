@@ -16,6 +16,7 @@ namespace CursoCsharp.MetodosFuncoes {
                 return random.Next(1, 7);
             };
 
+            Console.WriteLine(jogarDado);
         }
     }
 }
