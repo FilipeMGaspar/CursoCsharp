@@ -9,7 +9,7 @@ namespace CursoCsharp.MetodosFuncoes {
             return num + outroNumero;      
         }
 
-        public static int Subtracao(this int num, int outroNumero) {
+        public static double Subtracao(this double num, int outroNumero) {
             return num - outroNumero;
         }
     }
@@ -17,12 +17,13 @@ namespace CursoCsharp.MetodosFuncoes {
     class MetodosDeExtensao {
         public static void Executar() {
             int numero = 5;
+            double numeroReal = 5.5;
 
             Console.WriteLine(numero.Somar(3));
-            Console.WriteLine(numero.Subtracao(10));
+            Console.WriteLine(numeroReal.Subtracao(10));
 
             Console.WriteLine(2.Somar(3));
-            Console.WriteLine(5.Subtracao(8));
+            Console.WriteLine(5.2.Subtracao(8));
         }
     }
 }
