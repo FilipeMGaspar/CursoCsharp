@@ -18,11 +18,11 @@ namespace CursoCsharp.MetodosFuncoes {
         
         public static void Executar() {
             Soma op1 = MinhaSoma;
-            Console.WriteLine(op1(2, 3));
+            Console.WriteLine(op1(2, 3.5));
 
             ImprimirSoma op2 = MeuImprimirSoma;
-            op2(5, 8);
-
+            op2(5.6, 8);
+            Console.WriteLine();
         } 
     }
 }
