@@ -17,7 +17,11 @@ namespace CursoCsharp.MetodosFuncoes {
         }
 
         public static void Executar() {
+            Operacao subtracao = (int x, int y) => x - y;
 
+            Console.WriteLine(Calculadora(subtracao, 3, 2));
+
+            Console.WriteLine(Calculadora(Soma, 3, 2));
         }
     }
 }
