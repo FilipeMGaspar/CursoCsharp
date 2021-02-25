@@ -87,6 +87,7 @@ namespace CursoCsharp
                 //Seção 8: Métodos & Funções
                 { "Exemplo Lambda - Métodos & Funções ", ExemploLambda.Executar},                
                 { "Delegate com Lambda - Métodos & Funções ", DelegateComLambda.Executar},                
+                { "Usando Delegates - Métodos & Funções ", UsandoDelegates.Executar},                
             });
             
 
