@@ -12,6 +12,7 @@ namespace CursoCsharp.MetodosFuncoes {
                 return new string(charArray);
             };
 
+            Console.WriteLine(inverter("C# é Show!!"));
         }
     }
 }
