@@ -21,6 +21,8 @@ namespace CursoCsharp.MetodosFuncoes {
             Console.WriteLine(op1(2, 3));
 
             ImprimirSoma op2 = MeuImprimirSoma;
+            op2(5, 8);
+
         } 
     }
 }
