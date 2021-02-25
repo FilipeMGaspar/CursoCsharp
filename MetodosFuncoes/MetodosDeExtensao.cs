@@ -16,7 +16,9 @@ namespace CursoCsharp.MetodosFuncoes {
 
     class MetodosDeExtensao {
         public static void Executar() {
+            int numero = 5;
 
+            Console.WriteLine(numero.Somar(3));
         }
     }
 }
