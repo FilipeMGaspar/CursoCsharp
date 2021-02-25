@@ -7,8 +7,9 @@ namespace CursoCsharp.MetodosFuncoes {
         public static void Executar() {
             Action algoNoConsole = () => {
                 Console.WriteLine("Lambda co C#");
-
             };
+
+            algoNoConsole();
         }
     }
 }
