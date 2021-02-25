@@ -12,6 +12,9 @@ namespace CursoCsharp.MetodosFuncoes {
             Operacao sub = (x, y) => x - y;
             Operacao mult = (x, y) => x * y;
 
+            Console.WriteLine(sum(3, 3));
+            Console.WriteLine(sub(5, 2));
+            Console.WriteLine(mult(4, 3));
         }
     }
 }
