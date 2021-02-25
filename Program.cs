@@ -85,7 +85,8 @@ namespace CursoCsharp
                 { "Classe e Método Sealed - Orientação a Objetos ", Classe_Metodo_Sealed.Executar},
 
                 //Seção 8: Métodos & Funções
-                { "Classe e Método Sealed - Métodos & Funções ", ExemploLambda.Executar},
+                { "Exemplo Lambda - Métodos & Funções ", ExemploLambda.Executar},
+                
             });
             
 
