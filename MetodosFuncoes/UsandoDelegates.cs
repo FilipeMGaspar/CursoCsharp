@@ -17,7 +17,7 @@ namespace CursoCsharp.MetodosFuncoes {
         }
         
         public static void Executar() {
-            
+            Soma op1 = MinhaSoma;
         } 
     }
 }
