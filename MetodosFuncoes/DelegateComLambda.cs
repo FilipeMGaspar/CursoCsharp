@@ -9,6 +9,8 @@ namespace CursoCsharp.MetodosFuncoes {
     class DelegateComLambda {
         public static void Executar() {
             Operacao sum = (x, y) => x + y;
+            Operacao sub = (x, y) => x - y;
+            Operacao mult = (x, y) => x * y;
 
         }
     }
