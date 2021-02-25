@@ -26,6 +26,9 @@ namespace CursoCsharp.MetodosFuncoes {
 
             Func<double, double, double> op3 = MinhaSoma;
             Console.WriteLine(op3(10.5, 9.5));
+
+            Action<double, double> op4 = MeuImprimirSoma;
+            op4(23.4, 8.1);
         } 
     }
 }
