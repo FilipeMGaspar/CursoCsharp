@@ -16,7 +16,9 @@ namespace CursoCsharp.MetodosFuncoes {
                 return random.Next(1, 7);
             };
 
-            Console.WriteLine(jogarDado);
+            Console.WriteLine(jogarDado());
+
+            Func<int, string> conversorHex = numero => numero.ToString("X")
         }
     }
 }
