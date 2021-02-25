@@ -13,6 +13,7 @@ namespace CursoCsharp.MetodosFuncoes {
 
         public static string Calculadora(Operacao op, int x, int y) {
             var resultado = op(x, y);
+            return "Resultado: " + resultado;
         }
 
         public static void Executar() {
