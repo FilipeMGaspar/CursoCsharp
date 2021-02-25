@@ -19,6 +19,9 @@ namespace CursoCsharp.MetodosFuncoes {
             int numero = 5;
 
             Console.WriteLine(numero.Somar(3));
+            Console.WriteLine(numero.Subtracao(10));
+
+            
         }
     }
 }
