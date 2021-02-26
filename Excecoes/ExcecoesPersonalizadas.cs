@@ -13,7 +13,7 @@ namespace CursoCsharp.Excecoes {
     }
 
     public class ImparException : Exception {
-
+        public ImparException(string message) : base(message) { }
     }
 
     class ExcecoesPersonalizadas {
