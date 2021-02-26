@@ -10,7 +10,10 @@ namespace CursoCsharp.ExplorandoAPI {
             
             if (!File.Exists(path)) {
                 using (StreamWriter sw = File.CreateText(path)) {
-
+                    sw.WriteLine("Este é");
+                    sw.WriteLine("o nosso");
+                    sw.WriteLine("primeiro");
+                    sw.WriteLine("ficheiro!");
                 }
             }
         }
