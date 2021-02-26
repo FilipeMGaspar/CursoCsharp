@@ -27,7 +27,7 @@ namespace CursoCsharp.Excecoes {
                 int.Parse("abc");
                 conta.Sacar(1600);
                 Console.WriteLine("Retirada com sucesso!");
-            }catch (ArgumentException ex) {
+            }catch (Exception ex) {
                 Console.WriteLine(ex.Message);
             } finally {
                 Console.WriteLine("Obrigado!");
