@@ -23,7 +23,12 @@ namespace CursoCsharp.ExplorandoAPI {
                     sw.WriteLine("Borracha Branca;2.89;27");
                 }
             }
-           
+
+            try {
+                using (StreamReader sr = new StreamReader(path)) {
+                    var texto = sr.ReadToEnd();
+                }
+            }
         }
     }
 }
