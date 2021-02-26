@@ -35,13 +35,17 @@ namespace CursoCsharp.Excecoes {
         }
 
         public static void Executar() {
-            try {
-                Console.WriteLine(PositivoPar());
-            } catch (NegativoException ex) {
-                Console.WriteLine(ex.Message);
-            } catch (ImparException ex) {
-                Console.WriteLine(ex.Message);
-            }
+            int c = 0;
+            do {
+                try {
+                    Console.WriteLine(PositivoPar());
+                } catch (NegativoException ex) {
+                    Console.WriteLine(ex.Message);
+                } catch (ImparException ex) {
+                    Console.WriteLine(ex.Message);
+                }
+                c++;
+            } while (c <= 10);
         }
     }
 }
