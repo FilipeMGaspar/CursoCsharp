@@ -12,6 +12,10 @@ namespace CursoCsharp.Excecoes {
         public NegativoException(string message, Exception inner) : base(message, inner) { }
     }
 
+    public class ImparException : Exception {
+
+    }
+
     class ExcecoesPersonalizadas {
         public static void Executar() {
 
