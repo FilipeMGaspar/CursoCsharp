@@ -15,7 +15,7 @@ namespace CursoCsharp.ExplorandoAPI {
         public static void Executar() {
             //var s = @"\test\testetes\a.txt";
             //Console.WriteLine(s);
-            var path = @"~/primeiro_arquivo.txt";
+            var path = @"~/primeiro_arquivo.txt".ParseHome();
             
             if (!File.Exists(path)) {
                 using (StreamWriter sw = File.CreateText(path)) {
