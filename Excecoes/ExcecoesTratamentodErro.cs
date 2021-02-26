@@ -24,6 +24,7 @@ namespace CursoCsharp.Excecoes {
         public static void Executar() {
             var conta = new Conta(1223.45);
             try {
+                int.Parse("abc");
                 conta.Sacar(1600);
                 Console.WriteLine("Retirada com sucesso!");
             }catch (ArgumentException ex) {
