@@ -11,7 +11,11 @@ namespace CursoCsharp.Excecoes {
             Saldo = saldo;
         }
 
-
+        public void Sacar(double valor) {
+            if (valor > Saldo) {
+                throw new ArgumentException("Saldo insuficiente!");
+            }
+        }
     }
 
     class ExcecoesTratamentodErro {
