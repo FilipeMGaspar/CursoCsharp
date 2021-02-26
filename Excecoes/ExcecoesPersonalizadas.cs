@@ -9,7 +9,7 @@ namespace CursoCsharp.Excecoes {
 
         public NegativoException(string message) : base(message) { }
 
-
+        public NegativoException(string message, Exception inner) : base(message, inner) { }
     }
 
     class ExcecoesPersonalizadas {
