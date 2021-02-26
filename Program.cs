@@ -8,6 +8,7 @@ using CursoCsharp.Colecoes;
 using CursoCsharp.OrientacaoObjectos;
 using CursoCsharp.MetodosFuncoes;
 using CursoCsharp.Excecoes;
+using CursoCsharp.ExplorandoAPI;
 
 namespace CursoCsharp
 {
@@ -96,6 +97,9 @@ namespace CursoCsharp
                 //Seção 9: Exceções
                 { "Exceções e Tratamento de Erro - Exceções ", ExcecoesTratamentodErro.Executar},                
                 { "Criando Exceções Personalizadas - Exceções ", ExcecoesPersonalizadas.Executar},                
+                
+                //Seção 10: Explorando API
+                { "Arquivo: Escrevendo Dados - Explorando API ", ArquivoEscrevendoDados.Executar},                
             });
             
 
