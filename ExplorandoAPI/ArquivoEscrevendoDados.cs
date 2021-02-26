@@ -4,7 +4,9 @@ using System.IO;
 namespace CursoCsharp.ExplorandoAPI {
     public static class Extensaostring {
         public static string ParseHome(this string path) {
-            string home = (Environment.OSVersion.Platform == PlatformID.Unix);
+            string home = (Environment.OSVersion.Platform == PlatformID.Unix || Environment.OSVersion.Platform == PlatformID.MacOSX)
+                ? Environment.GetEnvironmentVariable("HOME")
+                : Environment.ExpandEnvironmentVariables("%HOMEDRIVE%%HOMEPATH%");
         }
     }
 
