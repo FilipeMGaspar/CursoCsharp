@@ -17,6 +17,17 @@ namespace CursoCsharp.Excecoes {
     }
 
     class ExcecoesPersonalizadas {
+
+        public static int PositivoPar() {
+            Random randon = new Random();
+            int valor = randon.Next(-30, 30);
+
+            if(valor < 0) {
+
+            }
+
+        }
+
         public static void Executar() {
 
         }
