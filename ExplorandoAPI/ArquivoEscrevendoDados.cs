@@ -25,6 +25,13 @@ namespace CursoCsharp.ExplorandoAPI {
                     sw.WriteLine("ficheiro!");
                 }
             }
+
+            using (StreamWriter sw = File.AppendText(path)) {
+                sw.WriteLine("");
+                sw.WriteLine("É possivel");
+                sw.WriteLine("adicionar");
+                sw.WriteLine("mais Texto!!");
+            }
         }
     }
 }
