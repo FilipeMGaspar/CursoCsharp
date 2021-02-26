@@ -26,7 +26,11 @@ namespace CursoCsharp.Excecoes {
                 throw new NegativoException("Número Negativo!");
             }
 
+            if(valor % 2 == 1) {
+                throw new ImparException("Valor Impar..");
+            }
 
+            return valor;
 
         }
 
