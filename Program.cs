@@ -95,6 +95,7 @@ namespace CursoCsharp
                 
                 //Seção 9: Exceções
                 { "Exceções e Tratamento de Erro - Exceções ", ExcecoesTratamentodErro.Executar},                
+                { "Criando Exceções Personalizadas - Exceções ", ExcecoesPersonalizadas.Executar},                
             });
             
 
