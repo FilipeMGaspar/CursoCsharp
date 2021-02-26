@@ -2,6 +2,12 @@
 using System.IO;
 
 namespace CursoCsharp.ExplorandoAPI {
+    public static class Extensaostring {
+        public static string ParseHome(this string path) {
+            string home = (Environment.OSVersion.Platform == PlatformID.Unix);
+        }
+    }
+
     class ArquivoEscrevendoDados {
         public static void Executar() {
             //var s = @"\test\testetes\a.txt";
