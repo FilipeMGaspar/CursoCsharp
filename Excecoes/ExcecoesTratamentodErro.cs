@@ -15,12 +15,17 @@ namespace CursoCsharp.Excecoes {
             if (valor > Saldo) {
                 throw new ArgumentException("Saldo insuficiente!");
             }
+
+            Saldo -= valor;
         }
     }
 
     class ExcecoesTratamentodErro {
         public static void Executar() {
+            var conta = new Conta(1223.45);
+            try {
 
+            }
         }
     }
 }
