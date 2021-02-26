@@ -23,8 +23,10 @@ namespace CursoCsharp.Excecoes {
             int valor = randon.Next(-30, 30);
 
             if(valor < 0) {
-
+                throw new NegativoException("Número Negativo!");
             }
+
+
 
         }
 
