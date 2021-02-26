@@ -7,6 +7,10 @@ namespace CursoCsharp.Excecoes {
     public class Conta {
         private double Saldo;
 
+        public Conta(double saldo) {
+            Saldo = saldo;
+        }
+
 
     }
 
