@@ -23,6 +23,10 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(Path.GetDirectoryName(arquivo));
             Console.WriteLine(Path.HasExtension(arquivo));
 
+            Console.WriteLine();
+            Console.WriteLine(Path.HasExtension(pasta));
+            Console.WriteLine(Path.GetFullPath(pasta));
+            Console.WriteLine(Path.GetPathRoot(pasta));
         }
     }
 }
