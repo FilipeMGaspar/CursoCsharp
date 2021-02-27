@@ -4,8 +4,13 @@ using System.IO;
 namespace CursoCsharp.ExplorandoAPI {
     class UsandoFileInfo {
 
-        public static void ExcluirSeExistir(params string[]) {
+        public static void ExcluirSeExistir(params string[] caminhos) {
+            foreach (var caminho in caminhos) {
+                FileInfo arquivo = new FileInfo(caminho);
+                if (arquivo.Exists) {
 
+                }
+            }
         }
 
         public static void Executar() {
