@@ -15,6 +15,12 @@ namespace CursoCsharp.ExplorandoAPI {
             if (Directory.Exists(novoDirDestino)) {
                 Directory.Delete(novoDirDestino, true);
             }
+
+            Directory.CreateDirectory(novoDir);
+            Console.WriteLine(Directory.GetCreationTime(novoDir));
+
+            Console.WriteLine("== Pastas ==============");
+            Console.WriteLine();
         }
     }
 }
