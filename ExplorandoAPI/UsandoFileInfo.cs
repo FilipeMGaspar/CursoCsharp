@@ -29,6 +29,7 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(origem.IsReadOnly);
             Console.WriteLine(origem.FullName);
             Console.WriteLine(origem.Extension);
+            Console.WriteLine(origem.DirectoryName);
 
             origem.CopyTo(caminhoCopia);
             origem.MoveTo(caminhoDestino);
