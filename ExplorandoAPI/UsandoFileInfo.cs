@@ -8,7 +8,12 @@ namespace CursoCsharp.ExplorandoAPI {
             var caminhoDestino = @"~/arq_destino.txt".ParseHome();
             var caminhoCopia = @"~/arq_copia.txt".ParseHome();
 
-            using ()
+            using (StreamWriter sw = File.CreateText(caminhoOrigem)) {
+                sw.WriteLine("Arquivo Original");
+            }
+
+            FileInfo origem = new FileInfo(caminhoOrigem);
+            Console.WriteLine(origem.Name);
         }
     }
 }
