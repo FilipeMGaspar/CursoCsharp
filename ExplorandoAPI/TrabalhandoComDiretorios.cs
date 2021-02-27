@@ -20,7 +20,11 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(Directory.GetCreationTime(novoDir));
 
             Console.WriteLine("== Pastas ==============");
-            Console.WriteLine();
+            var pastas = Directory.GetDirectories(dirProjectos);
+            foreach(var pasta in pastas) {
+                Console.WriteLine(pasta);
+            }
+            
         }
     }
 }
