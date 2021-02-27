@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
 
 namespace CursoCsharp.ExplorandoAPI {
     class UsandoDirectoryInfo {
         public static void Executar() {
-
+            var DirProjecto = @"~/source/repos".ParseHome();
         }
     }
 }
