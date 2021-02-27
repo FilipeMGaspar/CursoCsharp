@@ -30,8 +30,9 @@ namespace CursoCsharp.ExplorandoAPI {
             foreach(var arquivo in arquivos) {
                 Console.WriteLine(arquivo);
             }
-            
-            
+
+            Console.WriteLine("\n\n== Raiz ==========");
+            Console.WriteLine(Directory.GetDirectoryRoot(novoDir));
         }
     }
 }
