@@ -24,6 +24,9 @@ namespace CursoCsharp.ExplorandoAPI {
             foreach (var pasta in pastas) {
                 Console.WriteLine(pasta);
             }
+
+            Console.WriteLine(dirInfo.CreationTime);
+            Console.WriteLine(dirInfo.FullName);
         }
     }
 }
