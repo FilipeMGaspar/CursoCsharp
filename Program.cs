@@ -101,6 +101,7 @@ namespace CursoCsharp
                 //Seção 10: Explorando API
                 { "Arquivo: Escrevendo Dados - Explorando API ", ArquivoEscrevendoDados.Executar},                
                 { "Arquivo: Lendo Dados - Explorando API ", LendoDadosDeArquivo.Executar},                
+                { "Usando FileInfo - Seção 10: Explorando API ", UsandoFileInfo.Executar},                
             });
             
 
