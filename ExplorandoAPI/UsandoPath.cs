@@ -17,6 +17,7 @@ namespace CursoCsharp.ExplorandoAPI {
                 Directory.CreateDirectory(pasta);
             }
 
+            Console.WriteLine("..: Ficheiro :..");
             Console.WriteLine(Path.GetExtension(arquivo));
             Console.WriteLine(Path.GetFileName(arquivo));
             Console.WriteLine(Path.GetFileNameWithoutExtension(arquivo));
@@ -24,6 +25,7 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(Path.HasExtension(arquivo));
 
             Console.WriteLine();
+            Console.WriteLine(" *** Pasta ***");
             Console.WriteLine(Path.HasExtension(pasta));
             Console.WriteLine(Path.GetFullPath(pasta));
             Console.WriteLine(Path.GetPathRoot(pasta));
