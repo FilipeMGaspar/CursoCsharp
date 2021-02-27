@@ -24,6 +24,13 @@ namespace CursoCsharp.ExplorandoAPI {
             foreach(var pasta in pastas) {
                 Console.WriteLine(pasta);
             }
+
+            Console.WriteLine("\n..: Arquivos :..");
+            var arquivos = Directory.GetFiles(dirProjectos);
+            foreach(var arquivo in arquivos) {
+                Console.WriteLine(arquivo);
+            }
+            
             
         }
     }
