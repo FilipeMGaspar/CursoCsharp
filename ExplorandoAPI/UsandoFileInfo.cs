@@ -14,6 +14,11 @@ namespace CursoCsharp.ExplorandoAPI {
 
             FileInfo origem = new FileInfo(caminhoOrigem);
             Console.WriteLine(origem.Name);
+            Console.WriteLine(origem.IsReadOnly);
+            Console.WriteLine(origem.FullName);
+            Console.WriteLine(origem.Extension);
+
+            origem.CopyTo();
         }
     }
 }
