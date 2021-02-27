@@ -13,7 +13,13 @@ namespace CursoCsharp.ExplorandoAPI {
                 }
             }
 
+            if (!Directory.Exists(pasta)) {
+                Directory.CreateDirectory(pasta);
+            }
 
+            Console.WriteLine(Path.GetExtension(arquivo));
+            Console.WriteLine(Path.GetFileName(arquivo));
+            Console.WriteLine(Path.GetFileNameWithoutExtension(arquivo));
         }
     }
 }
