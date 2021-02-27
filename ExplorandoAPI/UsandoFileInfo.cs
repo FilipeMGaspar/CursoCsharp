@@ -18,7 +18,8 @@ namespace CursoCsharp.ExplorandoAPI {
             var caminhoDestino = @"~/arq_destino.txt".ParseHome();
             var caminhoCopia = @"~/arq_copia.txt".ParseHome();
 
-            ExcluirSeExistir(caminhoOrigem);
+            ExcluirSeExistir(caminhoOrigem, caminhoDestino, caminhoCopia);
+
             using (StreamWriter sw = File.CreateText(caminhoOrigem)) {
                 sw.WriteLine("Arquivo Original");
             }
