@@ -21,7 +21,9 @@ namespace CursoCsharp.ExplorandoAPI {
 
             Console.WriteLine("\n\n==Directorios ========= ");
             var pastas = dirInfo.GetDirectories();
-
+            foreach (var pasta in pastas) {
+                Console.WriteLine(pasta);
+            }
         }
     }
 }
