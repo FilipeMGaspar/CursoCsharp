@@ -103,6 +103,7 @@ namespace CursoCsharp
                 { "Arquivo: Lendo Dados - Explorando API ", LendoDadosDeArquivo.Executar},                
                 { "Usando FileInfo - Explorando API ", UsandoFileInfo.Executar},                
                 { "Trabalhando com Diretórios - Explorando API ", TrabalhandoComDiretorios.Executar},                
+                { "Usando DirectoryInfo - Explorando API ", UsandoDirectoryInfo.Executar},                
             });
             
 
