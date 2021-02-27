@@ -27,6 +27,9 @@ namespace CursoCsharp.ExplorandoAPI {
 
             Console.WriteLine(dirInfo.CreationTime);
             Console.WriteLine(dirInfo.FullName);
+            Console.WriteLine(dirInfo.Root);
+            Console.WriteLine();
+            Console.WriteLine(dirInfo.Parent);
         }
     }
 }
