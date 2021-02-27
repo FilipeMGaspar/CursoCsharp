@@ -8,7 +8,7 @@ namespace CursoCsharp.ExplorandoAPI {
             foreach (var caminho in caminhos) {
                 FileInfo arquivo = new FileInfo(caminho);
                 if (arquivo.Exists) {
-
+                    arquivo.Delete();
                 }
             }
         }
