@@ -33,6 +33,8 @@ namespace CursoCsharp.ExplorandoAPI {
 
             Console.WriteLine("\n\n== Raiz ==========");
             Console.WriteLine(Directory.GetDirectoryRoot(novoDir));
+
+            Directory.Move(novoDir, novoDirDestino);
         }
     }
 }
