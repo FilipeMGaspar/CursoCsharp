@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
 
 namespace CursoCsharp.ExplorandoAPI {
     class UsandoFileInfo {
         public static void Executar() {
-
+            var caminhoOrigem = @"~/arq_origem.txt".ParseHome();
+            
         }
     }
 }
