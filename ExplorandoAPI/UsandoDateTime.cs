@@ -27,6 +27,11 @@ namespace CursoCsharp.ExplorandoAPI {
 
             var ontem = diaAtual.AddDays(-1);
             Console.WriteLine(ontem);
+
+            //Formatando datas
+            Console.WriteLine(diaAtual.ToString("dd"));
+            Console.WriteLine(diaAtual.ToString("d"));
+            Console.WriteLine(diaAtual.ToString("D"));
         }
     }
 }
