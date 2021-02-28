@@ -11,9 +11,15 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(dateTime.Month);
             Console.WriteLine(dateTime.Year);
 
+            Console.WriteLine();
             //Sem hora
             var hoje = DateTime.Today;
             Console.WriteLine(hoje);
+
+            // com horas
+            var diaAtual = new DateTime.Now;
+            Console.WriteLine(diaAtual);
+
         }
     }
 }
