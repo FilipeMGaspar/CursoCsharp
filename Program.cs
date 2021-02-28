@@ -110,7 +110,7 @@ namespace CursoCsharp
                 { "Usando TimeSpan - Explorando API ", UsandoTimeSpan.Executar},                
                 
                 //Seção 11: Tópicos Avançados
-                { "Usando TimeSpan - Tópicos Avançados ", LINQ01.Executar},                
+                { "LINQ #01 - Tópicos Avançados ", LINQ01.Executar},                
             });
             
 
