@@ -20,7 +20,7 @@ namespace CursoCsharp.ExplorandoAPI {
             var diaAtual = DateTime.Now;
             Console.WriteLine(diaAtual);
             Console.WriteLine("Hora: " + diaAtual.Hour);
-            
+            Console.WriteLine("Minutos: " + diaAtual.Minute);
 
         }
     }
