@@ -105,6 +105,7 @@ namespace CursoCsharp
                 { "Trabalhando com Diretórios - Explorando API ", TrabalhandoComDiretorios.Executar},                
                 { "Usando DirectoryInfo - Explorando API ", UsandoDirectoryInfo.Executar},                
                 { "Usando Path - Explorando API ", UsandoPath.Executar},                
+                { "Usando DateTime - Explorando API ", UsandoDateTime.Executar},                
             });
             
 
