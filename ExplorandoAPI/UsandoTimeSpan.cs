@@ -24,6 +24,8 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine("\n"+intervalo.ToString("g"));
             Console.WriteLine(intervalo.ToString("G"));
             Console.WriteLine(intervalo.ToString("c"));
+
+            Console.WriteLine("\n" + TimeSpan.Parse("01:02:03").TotalMilliseconds);
         }
     }
 }
