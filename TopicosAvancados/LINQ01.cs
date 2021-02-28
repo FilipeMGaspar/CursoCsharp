@@ -23,7 +23,7 @@ namespace CursoCsharp.TopicosAvancados {
             };
 
             Console.WriteLine("=== Aprovados ==========");
-            var aprovados = alunos.Where(a => false);
+            var aprovados = alunos.Where(a => a.Idade > 24);
 
             foreach (var aluno in aprovados) {
                 Console.WriteLine(aluno.Nome);
