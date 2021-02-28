@@ -20,6 +20,10 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine("\n"+intervalo.Add(TimeSpan.FromMinutes(8)));
             Console.WriteLine(intervalo.Subtract(TimeSpan.FromMinutes(11)));
             Console.WriteLine("Original: " + intervalo);
+
+            Console.WriteLine("\n"+intervalo.ToString("g"));
+            Console.WriteLine(intervalo.ToString("G"));
+            Console.WriteLine(intervalo.ToString("c"));
         }
     }
 }
