@@ -13,12 +13,14 @@ namespace CursoCsharp.ExplorandoAPI {
 
             Console.WriteLine();
             //Sem hora
-            var hoje = DateTime.Now;
+            var hoje = DateTime.Today;
             Console.WriteLine(hoje);
 
             // com horas
+            var diaAtual = DateTime.Now;
+            Console.WriteLine(diaAtual);
+            Console.WriteLine("Hora: " + diaAtual.Hour);
             
-            //Console.WriteLine(diaAtual);
 
         }
     }
