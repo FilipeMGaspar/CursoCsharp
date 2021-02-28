@@ -31,6 +31,9 @@ namespace CursoCsharp.TopicosAvancados {
 
             Console.WriteLine("\n..: Chamada  :...................");
             var chamada = alunos.OrderBy(a => a.Nome).Select(a => a.Nome);
+            foreach (var aluno in chamada) {
+                Console.WriteLine(aluno);
+            }
         }
     }
 }
