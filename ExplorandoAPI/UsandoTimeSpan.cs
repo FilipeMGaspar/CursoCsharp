@@ -6,6 +6,7 @@ namespace CursoCsharp.ExplorandoAPI {
     class UsandoTimeSpan {
         public static void Executar() {
             var intervalo = new TimeSpan(days: 10, hours: 20, minutes: 30, seconds: 40);
+            Console.WriteLine(intervalo);
         }
     }
 }
