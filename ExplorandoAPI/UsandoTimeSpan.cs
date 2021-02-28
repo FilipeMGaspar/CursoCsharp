@@ -10,6 +10,9 @@ namespace CursoCsharp.ExplorandoAPI {
 
             Console.WriteLine("\nMinutos: " +intervalo.Minutes);
             Console.WriteLine("Intervalo em Minutos: " + intervalo.TotalMinutes);
+
+            var largada = DateTime.Now;
+            var chegada = DateTime.Now.AddMinutes(15);
         }
     }
 }
