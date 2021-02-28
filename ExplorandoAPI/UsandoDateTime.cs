@@ -36,6 +36,8 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine();
             Console.WriteLine(diaAtual.ToString("g"));
             Console.WriteLine(diaAtual.ToString("G"));
+            Console.WriteLine();
+            Console.WriteLine(diaAtual.ToString("dd-MM-yyyy  HH:mm"));
         }
     }
 }
