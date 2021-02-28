@@ -29,9 +29,12 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(ontem);
 
             //Formatando datas
+            Console.WriteLine();
             Console.WriteLine(diaAtual.ToString("dd"));
             Console.WriteLine(diaAtual.ToString("d"));
             Console.WriteLine(diaAtual.ToString("D"));
+            Console.WriteLine(diaAtual.ToString("g"));
+            Console.WriteLine(diaAtual.ToString("G"));
         }
     }
 }
