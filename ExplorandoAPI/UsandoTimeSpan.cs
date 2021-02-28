@@ -15,7 +15,9 @@ namespace CursoCsharp.ExplorandoAPI {
             var chegada = DateTime.Now.AddMinutes(15);
 
             var tempo = chegada - largada;
-            Console.WriteLine(tempo);
+            Console.WriteLine("\n"+tempo);
+
+            Console.WriteLine(intervalo.Add(TimeSpan.FromMinutes(8)));
         }
     }
 }
