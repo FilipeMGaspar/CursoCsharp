@@ -33,6 +33,7 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine(diaAtual.ToString("dd"));
             Console.WriteLine(diaAtual.ToString("d"));
             Console.WriteLine(diaAtual.ToString("D"));
+            Console.WriteLine();
             Console.WriteLine(diaAtual.ToString("g"));
             Console.WriteLine(diaAtual.ToString("G"));
         }
