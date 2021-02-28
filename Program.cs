@@ -9,6 +9,7 @@ using CursoCsharp.OrientacaoObjectos;
 using CursoCsharp.MetodosFuncoes;
 using CursoCsharp.Excecoes;
 using CursoCsharp.ExplorandoAPI;
+using CursoCsharp.TopicosAvancados;
 
 namespace CursoCsharp
 {
@@ -107,6 +108,9 @@ namespace CursoCsharp
                 { "Usando Path - Explorando API ", UsandoPath.Executar},                
                 { "Usando DateTime - Explorando API ", UsandoDateTime.Executar},                
                 { "Usando TimeSpan - Explorando API ", UsandoTimeSpan.Executar},                
+                
+                //Seção 11: Tópicos Avançados
+                { "Usando TimeSpan - Tópicos Avançados ", LINQ01.Executar},                
             });
             
 
