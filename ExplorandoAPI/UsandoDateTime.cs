@@ -22,6 +22,11 @@ namespace CursoCsharp.ExplorandoAPI {
             Console.WriteLine("Hora: " + diaAtual.Hour);
             Console.WriteLine("Minutos: " + diaAtual.Minute);
 
+            var amanha = diaAtual.AddDays(1);
+            Console.WriteLine(amanha);
+
+            var ontem = diaAtual.AddDays(-1);
+            Console.WriteLine(ontem);
         }
     }
 }
