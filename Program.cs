@@ -112,6 +112,7 @@ namespace CursoCsharp
                 //Seção 11: Tópicos Avançados
                 { "LINQ #01 - Tópicos Avançados ", LINQ01.Executar},                
                 { "LINQ #02 - Tópicos Avançados ", LINQ02.Executar},                
+                { "Nullables - Tópicos Avançados ", NullablesExemplo.Executar},                
             });
             
 
