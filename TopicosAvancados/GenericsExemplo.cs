@@ -14,7 +14,7 @@ namespace CursoCsharp.TopicosAvancados {
         }
 
         public T metodoGenerico(T valor) {
-            return new Random().Next(0, 2) ? Coisa : valor;
+            return new Random().Next(0, 2) == 0 ? Coisa : valor;
         }
 
         public T GetValor() {
