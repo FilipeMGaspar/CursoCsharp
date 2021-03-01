@@ -21,6 +21,14 @@ namespace CursoCsharp.TopicosAvancados {
             bool? booleana = null;
             bool resultado = booleana.GetValueOrDefault();
             Console.WriteLine(resultado);
+
+            try {
+                int x = num1.Value;
+                int y = num1.Value;
+                Console.WriteLine(x +y);
+            } catch (Exception ex){
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
