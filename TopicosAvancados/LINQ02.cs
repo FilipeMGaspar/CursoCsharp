@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace CursoCsharp.TopicosAvancados {
     class LINQ02 {
@@ -14,6 +14,8 @@ namespace CursoCsharp.TopicosAvancados {
                 new Aluno() { Nome ="Julia", Idade = 22, Nota = 7.5},
                 new Aluno() { Nome ="Marcio", Idade = 18, Nota = 6.8},
             };
+
+            var pedro = alunos.Single(aluno => aluno.Nome.Equals("Pedro"));
 
         }
     }
