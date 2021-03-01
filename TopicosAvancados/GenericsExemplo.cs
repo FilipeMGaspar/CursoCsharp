@@ -32,8 +32,12 @@ namespace CursoCsharp.TopicosAvancados {
         public static void Executar() {
             var caixa1 = new Caixa<int>(1000);
             Console.WriteLine(caixa1.metodoGenerico(33));
-
             Console.WriteLine(caixa1.Coisa.GetType());
+
+            Console.WriteLine();
+            var caixa2 = new Caixa<string>("Construtor");
+            Console.WriteLine(caixa2.metodoGenerico("Método"));
+            Console.WriteLine(caixa2.GetType());
 
         }
     }
