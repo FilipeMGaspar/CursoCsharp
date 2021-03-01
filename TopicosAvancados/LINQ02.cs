@@ -16,6 +16,7 @@ namespace CursoCsharp.TopicosAvancados {
             };
 
             var pedro = alunos.Single(aluno => aluno.Nome.Equals("Pedro"));
+            Console.WriteLine($"{pedro.Nome} {pedro.Nota}");
 
         }
     }
