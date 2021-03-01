@@ -31,7 +31,7 @@ namespace CursoCsharp.TopicosAvancados {
                 Console.WriteLine("Aluno não encontrado!");
             }
 
-            var outraAna = alunos.LastOrDefault(aluno => aluno.Nome.Equals("Ano"));
+            var outraAna = alunos.LastOrDefault(aluno => aluno.Nome.Equals("Ana"));
             Console.WriteLine($"{outraAna.Nome} {outraAna.Nota}");
 
             var exemploSkip = alunos.Skip(1).Take(3);
