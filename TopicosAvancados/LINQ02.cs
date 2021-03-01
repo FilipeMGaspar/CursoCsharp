@@ -48,8 +48,11 @@ namespace CursoCsharp.TopicosAvancados {
             var somatorioNotas = alunos.Sum(aluno => aluno.Nota);
             Console.WriteLine(somatorioNotas);
 
-           var mediaDaTurma = alunos.Average(aluno => aluno.Nota);
+            var mediaDaTurma = alunos.Average(aluno => aluno.Nota);
             Console.WriteLine(mediaDaTurma);
+
+            var mediaAlunosAprovados = alunos.Where(a => a.Nota >= 7).Average(aluno => aluno.Nota);
+            Console.WriteLine(mediaAlunosAprovados);
         }
     }
 }
