@@ -11,7 +11,7 @@ namespace CursoCsharp.TopicosAvancados {
             meuobjecto = 3;
             Console.WriteLine(meuobjecto);
             meuobjecto++;
-            Console.WriteLine("\n {0}", meuobjecto);
+            Console.WriteLine("\n{0}", meuobjecto);
         }
     }
 }
