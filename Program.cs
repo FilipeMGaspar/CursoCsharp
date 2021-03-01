@@ -114,6 +114,7 @@ namespace CursoCsharp
                 { "LINQ #02 - Tópicos Avançados ", LINQ02.Executar},                
                 { "Nullables - Tópicos Avançados ", NullablesExemplo.Executar},                
                 { "Dynamic - Tópicos Avançados ", DynamicExemplo.Executar},                
+                { "Generics - Tópicos Avançados ", GenericsExemplo.Executar},                
             });
             
 
