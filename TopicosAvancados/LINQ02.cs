@@ -21,6 +21,14 @@ namespace CursoCsharp.TopicosAvancados {
             var fulano = alunos.SingleOrDefault(aluno=>aluno.Nome.Equals("fulano"));
             if (fulano == null) {
                 Console.WriteLine("Aluno inexistente!");
+
+                var ana = alunos.First(aluno => aluno.Nome.Equals("Ana"));
+                Console.WriteLine($"{ana.Nome} {ana.Nota}");
+
+                var sicrano = alunos.FirstOrDefault(aluno => aluno.Nome.Equals("sicrano"));
+                if (sicrano == null) {
+                    Console.WriteLine("Aluno não encontrado!");
+                }
             }
         }
     }
