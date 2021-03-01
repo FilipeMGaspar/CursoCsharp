@@ -23,8 +23,8 @@ namespace CursoCsharp.TopicosAvancados {
             Console.WriteLine(resultado);
 
             try {
-                int x = num1.Value;
-                int y = num1.Value;
+                int x = num1.GetValueOrDefault();
+                int y = num1.GetValueOrDefault();
                 Console.WriteLine(x +y);
             } catch (Exception ex){
                 Console.WriteLine(ex.Message);
