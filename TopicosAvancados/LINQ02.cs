@@ -39,8 +39,11 @@ namespace CursoCsharp.TopicosAvancados {
                 Console.WriteLine(item.Nome);
             }
 
-            var maiorNota =
+            var maiorNota = alunos.Max(aluno => aluno.Nota);
+            Console.WriteLine($"{maiorNota} ");
 
+            var menorNota = alunos.Min(aluno => aluno.Nota);
+            Console.WriteLine(menorNota);
         }
     }
 }
