@@ -18,6 +18,10 @@ namespace CursoCsharp.TopicosAvancados {
             var pedro = alunos.Single(aluno => aluno.Nome.Equals("Pedro"));
             Console.WriteLine($"{pedro.Nome} {pedro.Nota}");
 
+            var fulano = alunos.SingleOrDefault(aluno=>aluno.Nome.Equals("fulano"));
+            if (fulano == null) {
+                Console.WriteLine("Aluno inexistente!");
+            }
         }
     }
 }
