@@ -11,6 +11,7 @@ namespace CursoCsharp.TopicosAvancados {
 
         public Caixa(T coisa) {
             Coisa = coisa;
+            valorPrivado = coisa;
         }
 
         public T metodoGenerico(T valor) {
