@@ -14,6 +14,13 @@ namespace CursoCsharp.TopicosAvancados {
             } else {
                 Console.WriteLine("A variavel não possui valor!");
             }
+
+            int valor = num1 ?? 1000;
+            Console.WriteLine(valor);
+
+            bool? booleana = null;
+            bool resultado = booleana.GetValueOrDefault();
+            Console.WriteLine(resultado);
         }
     }
 }
