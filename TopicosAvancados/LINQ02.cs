@@ -44,6 +44,10 @@ namespace CursoCsharp.TopicosAvancados {
 
             var menorNota = alunos.Min(aluno => aluno.Nota);
             Console.WriteLine(menorNota);
+
+            var somatorioNotas = alunos.Sum(aluno => aluno.Nota);
+            Console.WriteLine(somatorioNotas);
+
         }
     }
 }
