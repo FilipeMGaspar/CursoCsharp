@@ -1,4 +1,5 @@
 ﻿using System;
+using CursoCsharp.ClassesEMetodos;
 using System.Collections.Generic;
 using System.Text;
 
@@ -26,6 +27,11 @@ namespace CursoCsharp.TopicosAvancados {
     class CaixaInt : Caixa<int> {
         public CaixaInt() : base(0) { 
         }
+    }
+
+    class CaixaProduto : Caixa<Produto> {
+        public CaixaProduto : base(new Produto()){
+
     }
 
     class GenericsExemplo {
