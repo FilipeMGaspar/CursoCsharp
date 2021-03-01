@@ -30,7 +30,8 @@ namespace CursoCsharp.TopicosAvancados {
 
     class GenericsExemplo {
         public static void Executar() {
-
+            var caixa1 = new Caixa<int>(1000);
+            Console.WriteLine(caixa1.metodoGenerico(33));
         }
     }
 }
