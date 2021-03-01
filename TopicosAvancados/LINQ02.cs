@@ -39,18 +39,23 @@ namespace CursoCsharp.TopicosAvancados {
                 Console.WriteLine(item.Nome);
             }
 
+            Console.WriteLine();
             var maiorNota = alunos.Max(aluno => aluno.Nota);
             Console.WriteLine($"{maiorNota} ");
 
+            Console.WriteLine();
             var menorNota = alunos.Min(aluno => aluno.Nota);
             Console.WriteLine(menorNota);
 
+            Console.WriteLine();
             var somatorioNotas = alunos.Sum(aluno => aluno.Nota);
             Console.WriteLine(somatorioNotas);
 
+            Console.WriteLine();
             var mediaDaTurma = alunos.Average(aluno => aluno.Nota);
             Console.WriteLine(mediaDaTurma);
 
+            Console.WriteLine();
             var mediaAlunosAprovados = alunos.Where(a => a.Nota >= 7).Average(aluno => aluno.Nota);
             Console.WriteLine(mediaAlunosAprovados);
         }
