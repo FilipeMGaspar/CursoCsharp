@@ -12,6 +12,8 @@ namespace CursoCsharp.TopicosAvancados {
             Console.WriteLine(meuobjecto);
             meuobjecto++;
             Console.WriteLine("\n{0}", meuobjecto);
+
+            dynamic aluno = new System.Dynamic.ExpandoObject();
         }
     }
 }
