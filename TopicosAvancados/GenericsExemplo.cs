@@ -23,6 +23,11 @@ namespace CursoCsharp.TopicosAvancados {
         }
     }
 
+    class CaixaInt : Caixa<int> {
+        public CaixaInt() : base(0) { 
+        }
+    }
+
     class GenericsExemplo {
         public static void Executar() {
 
