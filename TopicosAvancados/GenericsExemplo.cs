@@ -30,8 +30,8 @@ namespace CursoCsharp.TopicosAvancados {
     }
 
     class CaixaProduto : Caixa<Produto> {
-        public CaixaProduto : base(new Produto()){
-
+        public CaixaProduto() : base(new Produto()) { 
+        }
     }
 
     class GenericsExemplo {
@@ -45,6 +45,8 @@ namespace CursoCsharp.TopicosAvancados {
             Console.WriteLine(caixa2.metodoGenerico("Método"));
             Console.WriteLine(caixa2.GetType());
 
+            CaixaProduto caixa3 = new CaixaProduto();
+            Console.WriteLine(caixa3.Coisa.GetType().Name);
         }
     }
 }
